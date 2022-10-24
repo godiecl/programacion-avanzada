@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="993px" preserveAspectRatio="none" style="width:939px;height:993px;background:#FFFFFF;" version="1.1" viewBox="0 0 939 993" width="939px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mo91cyfrat87" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a33cefc71688801f1270471b76b835c2]
+cluster cl.ucn.disc.pa.listaenlazada--><g id="cluster_cl.ucn.disc.pa.listaenlazada"><polygon fill="none" filter="url(#f1mo91cyfrat87)" points="16,6,213,6,220,27.6406,922,27.6406,922,984,16,984,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="220" y1="27.6406" y2="27.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="191" x="20" y="20.6738">cl.ucn.disc.pa.listaenlazada</text></g><!--MD5=[5235b4c3d2cb3d9a967b056c5832ea57]
+cluster colecciones--><g id="cluster_colecciones"><polygon fill="none" filter="url(#f1mo91cyfrat87)" points="456,48,547,48,554,69.6406,898,69.6406,898,960,456,960,456,48" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="456" x2="554" y1="69.6406" y2="69.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="460" y="62.6738">colecciones</text></g><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><g id="cluster_model"><polygon fill="none" filter="url(#f1mo91cyfrat87)" points="40,589,89,589,96,610.6406,432,610.6406,432,796,40,796,40,589" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="96" y1="610.6406" y2="610.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="44" y="603.6738">model</text></g><!--MD5=[6d3950f02135f600bc78651f38d40f36]
+class Elemento--><g id="elem_Elemento"><rect codeLine="8" fill="#FEFECE" filter="url(#f1mo91cyfrat87)" height="86.3281" id="Elemento" style="stroke:#A80036;stroke-width:1.0;" width="270" x="474" y="858"/><ellipse cx="575.25" cy="877.5234" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M576.2031,874.1641 L576.2031,880.8203 L577.9219,880.8203 Q578.5313,880.8203 578.7969,881.0547 Q579.0625,881.2891 579.0625,881.6797 Q579.0625,882.0547 578.7969,882.2891 Q578.5313,882.5234 577.9219,882.5234 L572.7813,882.5234 Q572.1719,882.5234 571.9063,882.2891 Q571.6406,882.0547 571.6406,881.6641 Q571.6406,881.2891 571.9063,881.0547 Q572.1719,880.8203 572.7813,880.8203 L574.5,880.8203 L574.5,874.1641 L572.7813,874.1641 Q572.1719,874.1641 571.9063,873.9297 Q571.6406,873.6953 571.6406,873.3047 Q571.6406,872.9297 571.9063,872.6953 Q572.1719,872.4609 572.7813,872.4609 L577.9219,872.4609 Q578.5313,872.4609 578.7969,872.6953 Q579.0625,872.9297 579.0625,873.3047 Q579.0625,873.6953 578.7969,873.9297 Q578.5313,874.1641 577.9219,874.1641 L576.2031,874.1641 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="594.75" y="873.8633">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="595.75" y="889.0801">Elemento</text><line style="stroke:#A80036;stroke-width:1.0;" x1="475" x2="743" y1="897.0469" y2="897.0469"/><line style="stroke:#A80036;stroke-width:1.0;" x1="475" x2="743" y1="905.0469" y2="905.0469"/><ellipse cx="485" cy="918.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="239" x="494" y="921.7207">esIgual(elemento: Elemento): boolean</text><ellipse cx="485" cy="934.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="494" y="937.3613">compararCon(elemento: Elemento): int</text></g><!--MD5=[51d01b056e41854a49db00f516bbe598]
+class Nodo--><g id="elem_Nodo"><rect codeLine="13" fill="#FEFECE" filter="url(#f1mo91cyfrat87)" height="110.5625" id="Nodo" style="stroke:#A80036;stroke-width:1.0;" width="246" x="504" y="370"/><ellipse cx="606.25" cy="386" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M609.0156,381.875 Q609.1719,381.6563 609.3594,381.5469 Q609.5469,381.4375 609.7656,381.4375 Q610.1406,381.4375 610.375,381.7031 Q610.6094,381.9531 610.6094,382.5625 L610.6094,384.0156 Q610.6094,384.625 610.375,384.8906 Q610.1406,385.1563 609.7656,385.1563 Q609.4219,385.1563 609.2188,384.9531 Q609.0156,384.7656 608.9063,384.25 Q608.8594,383.8906 608.6719,383.7031 Q608.3438,383.3281 607.7344,383.1094 Q607.125,382.8906 606.5,382.8906 Q605.7344,382.8906 605.0938,383.2188 Q604.4688,383.5469 603.9688,384.2969 Q603.4844,385.0469 603.4844,386.0781 L603.4844,387.1719 Q603.4844,388.4063 604.375,389.2344 Q605.2656,390.0469 606.8594,390.0469 Q607.7969,390.0469 608.4531,389.7969 Q608.8438,389.6406 609.2656,389.2031 Q609.5313,388.9375 609.6719,388.8594 Q609.8281,388.7813 610.0313,388.7813 Q610.3594,388.7813 610.6094,389.0469 Q610.875,389.2969 610.875,389.6406 Q610.875,389.9844 610.5313,390.3906 Q610.0313,390.9688 609.2344,391.2969 Q608.1563,391.75 606.8594,391.75 Q605.3438,391.75 604.1406,391.125 Q603.1563,390.625 602.4688,389.5625 Q601.7813,388.4844 601.7813,387.2031 L601.7813,386.0469 Q601.7813,384.7188 602.3906,383.5781 Q603.0156,382.4219 604.1094,381.8125 Q605.2031,381.1875 606.4375,381.1875 Q607.1719,381.1875 607.8125,381.3594 Q608.4688,381.5156 609.0156,381.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="626.75" y="390.8535">Nodo</text><line style="stroke:#A80036;stroke-width:1.0;" x1="505" x2="749" y1="402" y2="402"/><line style="stroke:#A80036;stroke-width:1.0;" x1="505" x2="749" y1="410" y2="410"/><ellipse cx="515" cy="423.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="524" y="426.6738">Nodo(elemento: Elemento)</text><ellipse cx="515" cy="438.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="524" y="442.3145">getElemento(): Elemento</text><ellipse cx="515" cy="454.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="524" y="457.9551">getSiguiente(): Nodo</text><ellipse cx="515" cy="470.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="220" x="524" y="473.5957">setSiguiente(siguiente: Nodo): void</text></g><!--MD5=[39f530830672742a154bb2e3a55b4a26]
+class Coleccion--><g id="elem_Coleccion"><rect codeLine="22" fill="#FEFECE" filter="url(#f1mo91cyfrat87)" height="148.8906" id="Coleccion" style="stroke:#A80036;stroke-width:1.0;" width="274" x="472" y="627"/><ellipse cx="573.75" cy="646.5234" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M574.7031,643.1641 L574.7031,649.8203 L576.4219,649.8203 Q577.0313,649.8203 577.2969,650.0547 Q577.5625,650.2891 577.5625,650.6797 Q577.5625,651.0547 577.2969,651.2891 Q577.0313,651.5234 576.4219,651.5234 L571.2813,651.5234 Q570.6719,651.5234 570.4063,651.2891 Q570.1406,651.0547 570.1406,650.6641 Q570.1406,650.2891 570.4063,650.0547 Q570.6719,649.8203 571.2813,649.8203 L573,649.8203 L573,643.1641 L571.2813,643.1641 Q570.6719,643.1641 570.4063,642.9297 Q570.1406,642.6953 570.1406,642.3047 Q570.1406,641.9297 570.4063,641.6953 Q570.6719,641.4609 571.2813,641.4609 L576.4219,641.4609 Q577.0313,641.4609 577.2969,641.6953 Q577.5625,641.9297 577.5625,642.3047 Q577.5625,642.6953 577.2969,642.9297 Q577.0313,643.1641 576.4219,643.1641 L574.7031,643.1641 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="594.75" y="642.8633">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="594.25" y="658.0801">Coleccion</text><line style="stroke:#A80036;stroke-width:1.0;" x1="473" x2="745" y1="666.0469" y2="666.0469"/><line style="stroke:#A80036;stroke-width:1.0;" x1="473" x2="745" y1="674.0469" y2="674.0469"/><ellipse cx="483" cy="687.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="492" y="690.7207">agregar(elemento: Elemento): boolean</text><ellipse cx="483" cy="703.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="248" x="492" y="706.3613">contiene(elemento: Elemento): boolean</text><ellipse cx="483" cy="718.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="492" y="722.002">vaciar(): void</text><ellipse cx="483" cy="734.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="492" y="737.6426">isVacia(): boolean</text><ellipse cx="483" cy="749.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="492" y="753.2832">eliminar(elemento: Elemento): boolean</text><ellipse cx="483" cy="765.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="492" y="768.9238">tamanio(): int</text></g><!--MD5=[abceb2bb61d296a097e5b23663675653]
+class Lista--><g id="elem_Lista"><rect codeLine="32" fill="#FEFECE" filter="url(#f1mo91cyfrat87)" height="117.6094" id="Lista" style="stroke:#A80036;stroke-width:1.0;" width="328" x="472" y="222"/><ellipse cx="603.25" cy="241.5234" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M604.2031,238.1641 L604.2031,244.8203 L605.9219,244.8203 Q606.5313,244.8203 606.7969,245.0547 Q607.0625,245.2891 607.0625,245.6797 Q607.0625,246.0547 606.7969,246.2891 Q606.5313,246.5234 605.9219,246.5234 L600.7813,246.5234 Q600.1719,246.5234 599.9063,246.2891 Q599.6406,246.0547 599.6406,245.6641 Q599.6406,245.2891 599.9063,245.0547 Q600.1719,244.8203 600.7813,244.8203 L602.5,244.8203 L602.5,238.1641 L600.7813,238.1641 Q600.1719,238.1641 599.9063,237.9297 Q599.6406,237.6953 599.6406,237.3047 Q599.6406,236.9297 599.9063,236.6953 Q600.1719,236.4609 600.7813,236.4609 L605.9219,236.4609 Q606.5313,236.4609 606.7969,236.6953 Q607.0625,236.9297 607.0625,237.3047 Q607.0625,237.6953 606.7969,237.9297 Q606.5313,238.1641 605.9219,238.1641 L604.2031,238.1641 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="621.75" y="237.8633">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="637.25" y="253.0801">Lista</text><line style="stroke:#A80036;stroke-width:1.0;" x1="473" x2="799" y1="261.0469" y2="261.0469"/><line style="stroke:#A80036;stroke-width:1.0;" x1="473" x2="799" y1="269.0469" y2="269.0469"/><ellipse cx="483" cy="282.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="302" x="492" y="285.7207">agregar(posicion: int, elemento: Elemento): void</text><ellipse cx="483" cy="298.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="492" y="301.3613">obtener(posicion: int): Elemento</text><ellipse cx="483" cy="313.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="228" x="492" y="317.002">posicionDe(elemento: Elemento): int</text><ellipse cx="483" cy="329.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="492" y="332.6426">eliminar(posicion: int): Elemento</text></g><!--MD5=[e695a6ad0825277c948ab1572ce4891e]
+class ListaNexoSimple--><g id="elem_ListaNexoSimple"><rect codeLine="40" fill="#FEFECE" filter="url(#f1mo91cyfrat87)" height="63.6406" id="ListaNexoSimple" style="stroke:#A80036;stroke-width:1.0;" width="139" x="742.5" y="82"/><ellipse cx="759.3" cy="98" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M762.0656,93.875 Q762.2219,93.6563 762.4094,93.5469 Q762.5969,93.4375 762.8156,93.4375 Q763.1906,93.4375 763.425,93.7031 Q763.6594,93.9531 763.6594,94.5625 L763.6594,96.0156 Q763.6594,96.625 763.425,96.8906 Q763.1906,97.1563 762.8156,97.1563 Q762.4719,97.1563 762.2688,96.9531 Q762.0656,96.7656 761.9563,96.25 Q761.9094,95.8906 761.7219,95.7031 Q761.3938,95.3281 760.7844,95.1094 Q760.175,94.8906 759.55,94.8906 Q758.7844,94.8906 758.1438,95.2188 Q757.5188,95.5469 757.0188,96.2969 Q756.5344,97.0469 756.5344,98.0781 L756.5344,99.1719 Q756.5344,100.4063 757.425,101.2344 Q758.3156,102.0469 759.9094,102.0469 Q760.8469,102.0469 761.5031,101.7969 Q761.8938,101.6406 762.3156,101.2031 Q762.5813,100.9375 762.7219,100.8594 Q762.8781,100.7813 763.0813,100.7813 Q763.4094,100.7813 763.6594,101.0469 Q763.925,101.2969 763.925,101.6406 Q763.925,101.9844 763.5813,102.3906 Q763.0813,102.9688 762.2844,103.2969 Q761.2063,103.75 759.9094,103.75 Q758.3938,103.75 757.1906,103.125 Q756.2063,102.625 755.5188,101.5625 Q754.8313,100.4844 754.8313,99.2031 L754.8313,98.0469 Q754.8313,96.7188 755.4406,95.5781 Q756.0656,94.4219 757.1594,93.8125 Q758.2531,93.1875 759.4875,93.1875 Q760.2219,93.1875 760.8625,93.3594 Q761.5188,93.5156 762.0656,93.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="773.7" y="102.8535">ListaNexoSimple</text><line style="stroke:#A80036;stroke-width:1.0;" x1="743.5" x2="880.5" y1="114" y2="114"/><line style="stroke:#A80036;stroke-width:1.0;" x1="743.5" x2="880.5" y1="122" y2="122"/><ellipse cx="753.5" cy="135.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="762.5" y="138.6738">ListaNexoSimple()</text></g><!--MD5=[2da162f4757ceeb8f3ef98038d2a7846]
+class ListaArregloEstatico--><g id="elem_ListaArregloEstatico"><rect codeLine="46" fill="#FEFECE" filter="url(#f1mo91cyfrat87)" height="63.6406" id="ListaArregloEstatico" style="stroke:#A80036;stroke-width:1.0;" width="235" x="472.5" y="82"/><ellipse cx="522.75" cy="98" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M525.5156,93.875 Q525.6719,93.6563 525.8594,93.5469 Q526.0469,93.4375 526.2656,93.4375 Q526.6406,93.4375 526.875,93.7031 Q527.1094,93.9531 527.1094,94.5625 L527.1094,96.0156 Q527.1094,96.625 526.875,96.8906 Q526.6406,97.1563 526.2656,97.1563 Q525.9219,97.1563 525.7188,96.9531 Q525.5156,96.7656 525.4063,96.25 Q525.3594,95.8906 525.1719,95.7031 Q524.8438,95.3281 524.2344,95.1094 Q523.625,94.8906 523,94.8906 Q522.2344,94.8906 521.5938,95.2188 Q520.9688,95.5469 520.4688,96.2969 Q519.9844,97.0469 519.9844,98.0781 L519.9844,99.1719 Q519.9844,100.4063 520.875,101.2344 Q521.7656,102.0469 523.3594,102.0469 Q524.2969,102.0469 524.9531,101.7969 Q525.3438,101.6406 525.7656,101.2031 Q526.0313,100.9375 526.1719,100.8594 Q526.3281,100.7813 526.5313,100.7813 Q526.8594,100.7813 527.1094,101.0469 Q527.375,101.2969 527.375,101.6406 Q527.375,101.9844 527.0313,102.3906 Q526.5313,102.9688 525.7344,103.2969 Q524.6563,103.75 523.3594,103.75 Q521.8438,103.75 520.6406,103.125 Q519.6563,102.625 518.9688,101.5625 Q518.2813,100.4844 518.2813,99.2031 L518.2813,98.0469 Q518.2813,96.7188 518.8906,95.5781 Q519.5156,94.4219 520.6094,93.8125 Q521.7031,93.1875 522.9375,93.1875 Q523.6719,93.1875 524.3125,93.3594 Q524.9688,93.5156 525.5156,93.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="543.25" y="102.8535">ListaArregloEstatico</text><line style="stroke:#A80036;stroke-width:1.0;" x1="473.5" x2="706.5" y1="114" y2="114"/><line style="stroke:#A80036;stroke-width:1.0;" x1="473.5" x2="706.5" y1="122" y2="122"/><ellipse cx="483.5" cy="135.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="492.5" y="138.6738">ListaArregloEstatico(tamanio: int)</text></g><!--MD5=[1d6438b19b75334de94d74596f8416e5]
+class Vehiculo--><g id="elem_Vehiculo"><rect codeLine="54" fill="#FEFECE" filter="url(#f1mo91cyfrat87)" height="157.4844" id="Vehiculo" style="stroke:#A80036;stroke-width:1.0;" width="360" x="56" y="623"/><ellipse cx="204.75" cy="639" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M207.5156,634.875 Q207.6719,634.6563 207.8594,634.5469 Q208.0469,634.4375 208.2656,634.4375 Q208.6406,634.4375 208.875,634.7031 Q209.1094,634.9531 209.1094,635.5625 L209.1094,637.0156 Q209.1094,637.625 208.875,637.8906 Q208.6406,638.1563 208.2656,638.1563 Q207.9219,638.1563 207.7188,637.9531 Q207.5156,637.7656 207.4063,637.25 Q207.3594,636.8906 207.1719,636.7031 Q206.8438,636.3281 206.2344,636.1094 Q205.625,635.8906 205,635.8906 Q204.2344,635.8906 203.5938,636.2188 Q202.9688,636.5469 202.4688,637.2969 Q201.9844,638.0469 201.9844,639.0781 L201.9844,640.1719 Q201.9844,641.4063 202.875,642.2344 Q203.7656,643.0469 205.3594,643.0469 Q206.2969,643.0469 206.9531,642.7969 Q207.3438,642.6406 207.7656,642.2031 Q208.0313,641.9375 208.1719,641.8594 Q208.3281,641.7813 208.5313,641.7813 Q208.8594,641.7813 209.1094,642.0469 Q209.375,642.2969 209.375,642.6406 Q209.375,642.9844 209.0313,643.3906 Q208.5313,643.9688 207.7344,644.2969 Q206.6563,644.75 205.3594,644.75 Q203.8438,644.75 202.6406,644.125 Q201.6563,643.625 200.9688,642.5625 Q200.2813,641.4844 200.2813,640.2031 L200.2813,639.0469 Q200.2813,637.7188 200.8906,636.5781 Q201.5156,635.4219 202.6094,634.8125 Q203.7031,634.1875 204.9375,634.1875 Q205.6719,634.1875 206.3125,634.3594 Q206.9688,634.5156 207.5156,634.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="225.25" y="643.8535">Vehiculo</text><line style="stroke:#A80036;stroke-width:1.0;" x1="57" x2="415" y1="655" y2="655"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64" y="665.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="76" y="671.6738">placa: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64" y="680.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="76" y="687.3145">marca: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64" y="696.6016"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="76" y="702.9551">modelo: String</text><line style="stroke:#A80036;stroke-width:1.0;" x1="57" x2="415" y1="709.9219" y2="709.9219"/><ellipse cx="67" cy="723.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="334" x="76" y="726.5957">Vehiculo(placa: String, marca: String, modelo: String)</text><ellipse cx="67" cy="738.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="76" y="742.2363">getPlaca(): String</text><ellipse cx="67" cy="754.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="76" y="757.877">getMarca(): String</text><ellipse cx="67" cy="770.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="76" y="773.5176">getModelo(): String</text></g><!--MD5=[74c442c18dcfa0a339b98576abd8bf06]
+link Nodo to Elemento--><g id="link_Nodo_Elemento"><path codeLine="19" d="M701.7623,489.6182 C701.7623,489.6182 751.14,547.12 764,581 C799.17,673.66 812.22,717.41 764,804 C753.73,822.44 738.3,837.78 721.09,850.39 " fill="none" id="Nodo-Elemento" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="710.18,857.89,719.8619,856.0841,714.2992,855.056,715.3274,849.4933,710.18,857.89" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="714.2992" x2="720.89" y1="855.056" y2="850.53"/><polygon fill="#A80036" points="693.31,481.1,694.6967,488.1765,701.7623,489.6182,700.3755,482.5417,693.31,481.1" style="stroke:#A80036;stroke-width:1.0;"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="763" y="562.7617"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="773" y="569.7686">elemento: Elemento</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="719.3583" y="847.3753">1</text></g><!--MD5=[8782672b1eb52189c6c0b628bd4a282f]
+link Nodo to Nodo--><g id="link_Nodo_Nodo"><path codeLine="20" d="M762.0794,411.3016 C762.0794,411.3016 785,418.97 785,425.5 C785,432.03 776.5,436.71 763.13,439.53 " fill="none" id="Nodo-Nodo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="750.22,441.53,759.7251,444.1094,755.1614,440.7668,758.504,436.2032,750.22,441.53" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="755.1614" x2="763.065" y1="440.7668" y2="439.54"/><polygon fill="none" points="750.22,409.47,755.5392,414.3389,762.0794,411.3016,756.7602,406.4327,750.22,409.47" style="stroke:#A80036;stroke-width:1.0;"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="793" y="423.2617"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="803" y="430.2686">siguiente: Nodo</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="757.9796" y="439.8484">0..1</text></g><!--MD5=[20af7baf9ea1bd2990b3d3551c8668b5]
+link Coleccion to Elemento--><g id="link_Coleccion_Elemento"><path codeLine="30" d="M609,776.04 C609,801.74 609,829.87 609,852.83 " fill="none" id="Coleccion-to-Elemento" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="609,857.95,613,848.95,609,852.95,605,848.95,609,857.95" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="610" y="824.7686">«uses»</text></g><!--MD5=[11c560a5735e8040aaeb08007fc586a0]
+link Lista to Coleccion--><g id="link_Lista_Coleccion"><path codeLine="38" d="M526.21,340.14 C517.01,348.97 508.96,358.9 503,370 C462,446.29 500.46,541.1 542.07,609.59 " fill="none" id="Lista-to-Coleccion" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="548.21,606.19,552.96,626.84,536.37,613.66,548.21,606.19" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="502" y="523.7686">«extends»</text></g><!--MD5=[c54706ac95acc25d9fdd3155035a8333]
+link ListaNexoSimple to Nodo--><g id="link_ListaNexoSimple_Nodo"><path codeLine="43" d="M826.5689,157.8715 C826.5689,157.8715 853.35,285.71 818,340 C804.35,360.96 784.19,376.76 762.02,388.66 " fill="none" id="ListaNexoSimple-Nodo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="750.27,394.53,760.1087,394.0828,754.7421,392.2939,756.531,386.9274,750.27,394.53" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="754.7421" x2="761.895" y1="392.2939" y2="388.72"/><polygon fill="#A80036" points="823.18,146.36,821.0372,153.2454,826.5689,157.8715,828.7116,150.9862,823.18,146.36" style="stroke:#A80036;stroke-width:1.0;"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="836" y="181.7617"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="846" y="188.7686">cabeza: Nodo</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="758.0325" y="390.1312">0..1</text></g><!--MD5=[26dbb4ab127f826b2b11c64c524c0927]
+link ListaNexoSimple to Lista--><g id="link_ListaNexoSimple_Lista"><path codeLine="44" d="M742.27,140.09 C705.98,153.72 667.94,169.15 662,176 C655.36,183.65 650.37,192.75 646.62,202.34 " fill="none" id="ListaNexoSimple-to-Lista" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="653.23,204.66,640.71,221.75,639.84,200.58,653.23,204.66" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="663" y="188.7686">«implements»</text></g><!--MD5=[7a5771b3b1f454fd4c9f74adf59fcc47]
+link ListaArregloEstatico to Lista--><g id="link_ListaArregloEstatico_Lista"><path codeLine="49" d="M551.86,146.2 C540.12,159.69 531.92,176.02 539,192 C541.07,196.68 543.54,201.23 546.3,205.61 " fill="none" id="ListaArregloEstatico-to-Lista" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="551.98,201.52,558.28,221.75,540.74,209.86,551.98,201.52" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="540" y="188.7686">«implements»</text></g><!--MD5=[f89484207fb2091692e7e6f188257ddf]
+link Vehiculo to Elemento--><g id="link_Vehiculo_Elemento"><path codeLine="63" d="M382.62,780.13 C425.95,803.07 472.29,827.61 511.68,848.47 " fill="none" id="Vehiculo-to-Elemento" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="515.15,842.39,529.55,857.93,508.6,854.76,515.15,842.39" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="467" y="824.7686">«implements»</text></g><!--MD5=[d51c8f913402e60b6f64f1f4793a844a]
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+package cl.ucn.disc.pa.listaenlazada {
+
+    package colecciones {
+        interface Elemento <<interface>> {
+            + esIgual(elemento: Elemento): boolean
+            + compararCon(elemento: Elemento): int
+        }
+
+        class Nodo {
+            + Nodo(elemento: Elemento)
+            + getElemento(): Elemento
+            + getSiguiente(): Nodo
+            + setSiguiente(siguiente: Nodo): void
+        }
+        Nodo *- -> "1" Elemento: - elemento: Elemento
+        Nodo o- -> "0..1" Nodo: - siguiente: Nodo
+
+        interface Coleccion <<interface>> {
+            + agregar(elemento: Elemento): boolean
+            + contiene(elemento: Elemento): boolean
+            + vaciar(): void
+            + isVacia(): boolean
+            + eliminar(elemento: Elemento): boolean
+            + tamanio(): int
+        }
+        Coleccion ..> Elemento: <<uses>>
+
+        interface Lista <<interface>> {
+            + agregar(posicion: int, elemento: Elemento): void
+            + obtener(posicion: int): Elemento
+            + posicionDe(elemento: Elemento): int
+            + eliminar(posicion: int): Elemento
+        }
+        Lista - - -|> Coleccion: <<extends>>
+
+        class ListaNexoSimple {
+            + ListaNexoSimple()
+        }
+        ListaNexoSimple *- -> "0..1" Nodo: - cabeza: Nodo
+        ListaNexoSimple ..|> Lista: <<implements>>
+
+        class ListaArregloEstatico {
+            + ListaArregloEstatico(tamanio: int)
+        }
+        ListaArregloEstatico ..|> Lista: <<implements>>
+    }
+
+    package model {
+
+        class Vehiculo {
+            - placa: String
+            - marca: String
+            - modelo: String
+            + Vehiculo(placa: String, marca: String, modelo: String)
+            + getPlaca(): String
+            + getMarca(): String
+            + getModelo(): String
+        }
+        Vehiculo ..|> Elemento: <<implements>>
+
+    }
+
+}
+
+
+
+
+@enduml
+
+@startuml
+skin rose
+
+package cl.ucn.disc.pa.listaenlazada {
+
+    package colecciones {
+        interface Elemento <<interface>> {
+            + esIgual(elemento: Elemento): boolean
+            + compararCon(elemento: Elemento): int
+        }
+
+        class Nodo {
+            + Nodo(elemento: Elemento)
+            + getElemento(): Elemento
+            + getSiguiente(): Nodo
+            + setSiguiente(siguiente: Nodo): void
+        }
+        Nodo *- -> "1" Elemento: - elemento: Elemento
+        Nodo o- -> "0..1" Nodo: - siguiente: Nodo
+
+        interface Coleccion <<interface>> {
+            + agregar(elemento: Elemento): boolean
+            + contiene(elemento: Elemento): boolean
+            + vaciar(): void
+            + isVacia(): boolean
+            + eliminar(elemento: Elemento): boolean
+            + tamanio(): int
+        }
+        Coleccion ..> Elemento: <<uses>>
+
+        interface Lista <<interface>> {
+            + agregar(posicion: int, elemento: Elemento): void
+            + obtener(posicion: int): Elemento
+            + posicionDe(elemento: Elemento): int
+            + eliminar(posicion: int): Elemento
+        }
+        Lista - - -|> Coleccion: <<extends>>
+
+        class ListaNexoSimple {
+            + ListaNexoSimple()
+        }
+        ListaNexoSimple *- -> "0..1" Nodo: - cabeza: Nodo
+        ListaNexoSimple ..|> Lista: <<implements>>
+
+        class ListaArregloEstatico {
+            + ListaArregloEstatico(tamanio: int)
+        }
+        ListaArregloEstatico ..|> Lista: <<implements>>
+    }
+
+    package model {
+
+        class Vehiculo {
+            - placa: String
+            - marca: String
+            - modelo: String
+            + Vehiculo(placa: String, marca: String, modelo: String)
+            + getPlaca(): String
+            + getMarca(): String
+            + getModelo(): String
+        }
+        Vehiculo ..|> Elemento: <<implements>>
+
+    }
+
+}
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 CLT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
