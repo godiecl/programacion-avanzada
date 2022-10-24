@@ -1,0 +1,43 @@
+@startuml
+left to right direction
+hide empty members
+skin rose
+
+entity Proyecto {
+    Código
+    Nombre
+    Duracción en Meses
+    Costo Total
+}
+
+entity Ingeniero {
+    Rut
+    Nombre
+    Dirección
+    Sueldo Base
+    Título
+    Cantidad de Cargas Familiares
+}
+Ingeniero "1" -- "1..5 "Proyecto: trabaja >
+
+entity Analista {
+    Rut
+    Nombre
+    Dirección
+    Sueldo Base
+    Años de Experiencia
+}
+Analista "1" -- "1..5 "Proyecto: trabaja >
+
+entity Programador {
+    Rut
+    Nombre
+    Dirección
+    Sueldo Base
+    Lenguaje de Programación
+    Horas Extras
+    Nivel de Programador
+}
+Programador "1" -- "1..5 "Proyecto: trabaja >
+
+@enduml

@@ -1,0 +1,126 @@
+@startuml
+left to right direction
+hide empty members
+skin rose
+
+package cl.ucn.disc.pa.mandiosoft {
+
+    package model {
+
+        abstract class Funcionario {
+            - MAX_PROYECTOS: int
+            - rut: String
+            - nombre: String
+            - direccion: String
+            - sueldoBase: double
+            + Funcionario(rut: String, nombre: String, direccion: String, sueldoBase: double)
+            + getRut(): String
+            + getNombre(): String
+            + getDireccion(): String
+            + getSueldoBase(): double
+            + {abstract} getSueldo(): double
+            + getProyecto(codigo: String): Proyecto
+            + addProyecto(proyecto: Proyecto): void
+        }
+
+        class Ingeniero {
+            - titulo: String
+            - cantidadCargasFamiliares: int
+            + Ingeniero(rut: String, nombre: String, direccion: String, sueldoBase: double, titulo: String, cantidadCargasFamiliares: int)
+            + getTitulo(): String
+            + getCantidadCargasFamiliares(): int
+        }
+        Ingeniero --|> Funcionario
+
+        class Analista {
+            - aniosExperiencia: int
+            + Analista(rut: String, nombre: String, direccion: String, sueldoBase: double, aniosExperiencia: int)
+            + getAniosExperiencia(): int
+        }
+        Analista --|> Funcionario
+
+        class Programador {
+            - lenguajeProgramacion: String
+            - horasExtras: int
+            - nivelProgramador: int
+            + Programador(rut: String, nombre: String, direccion: String, sueldoBase: double, lenguajeProgramacion: String, horasExtras: int, nivelProgramador: int)
+            + getLenguajeProgramacion(): String
+            + getHorasExtras(): int
+            + getNivelProgramador(): int
+        }
+        Programador --|> Funcionario
+
+        class Proyecto {
+            - codigo: String
+            - nombre: String
+            - duracionMeses: int
+            - costo: double
+            + Proyecto(codigo: String, nombre: String, duracionMeses: String)
+            + getCodigo(): String
+            + getNombre(): String
+            + getDuracionMeses(): int
+            + getCosto(): double
+            + getCostoMensual(): double
+            + getIngeniero(): Ingeniero
+            + getAnalista(): Analista
+            + getProgramador(): Programador
+            + setAnalista(analista: Analista): void
+            + setIngeniero(ingeniero: Ingeniero): void
+            + setProgramador(programador: Programador): void
+        }
+        Proyecto --> "1" Ingeniero: - ingeniero: Ingeniero
+        Proyecto --> "1" Analista: - analista: Analista
+        Proyecto --> "1" Programador: - programador: Programador
+        Proyecto "1..5" <-- Funcionario: - proyectos: Proyecto[]
+    }
+
+    package services {
+
+        interface Sistema {
+            + getProyectosConCostos(): String
+            + getListadoFuncionariosConSueldo(): String
+            + getFuncionarios(codigoProyecto: String): String
+            + getProyectos(rut: String): String
+            + getProyectosIngenieros(): String
+        }
+
+        class SistemaImpl {
+            + SistemaImpl()
+            - cargarProyectos(): void
+            - cargarFuncionarios(): void
+            - cargarAsignacionFuncionariosProyectos(): void
+            + {static} main(args[]: String): void
+        }
+        SistemaImpl ..|> Sistema
+    }
+
+    package utils {
+        class ListaFuncionario {
+            - funcionarios: Funcionario[]
+            - size: int
+            + ListaFuncionario(capacidad: int)
+            + getSize(): int
+            + getFuncionario(rut: String): Funcionario
+            + add(funcionario: Funcionario): void
+            + get(posicion int): Funcionario
+        }
+        ListaFuncionario o-> "*" Funcionario
+        SistemaImpl --> "1" ListaFuncionario: - funcionarios
+
+        class ListaProyecto {
+            - proyectos: Proyecto[]
+            - size: int
+            + ListaProyecto(capacidad: int)
+            + getSize(): int
+            + getProyecto(codigo: String): Proyecto
+            + add(proyecto: Proyecto): void
+            + get(posicion int): Proyecto
+        }
+        ListaProyecto o-> "*" Proyecto
+        SistemaImpl --> "1" ListaProyecto: - proyectos
+
+    }
+}
+
+
+@enduml
