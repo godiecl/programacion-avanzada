@@ -101,6 +101,18 @@ public final class FilaDeDodosNexos implements FilaDeDodos {
     }
 
     /**
+     * Returns a string representation of the object.
+     */
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder("Fila de Dodos:");
+        for (NodoDodo actual = this.primero; actual != null; actual = actual.getSiguiente()) {
+            sb.append(actual.getDodo().getNombre()).append(", ");
+        }
+        return sb.toString();
+    }
+
+    /**
      * Clase Nodo interna (solo visible para la clase FilaDeDodosNexos).
      */
     private static class NodoDodo {
