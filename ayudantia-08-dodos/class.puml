@@ -1,0 +1,39 @@
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+interface FilaDeDodos {
+    + agregarAlInicio(dodo: Dodo): void
+    + agregarEnPosicion(dodo: Dodo, posicion: int): void
+    + sacar(posicion: int): Dodo
+}
+
+class Dodo {
+    - nombre: String
+    - edad: int
+    - grado: int
+    + Dodo(nombre: String, edad: int, grado: int)
+    + getNombre(): String
+    + getEdad(): int
+    + getGrado(): int
+}
+
+class NodoDodo {
+    - dodo: Dodo
+    - siguiente: NodoDodo
+    - NodoDodo(dodo: Dodo)
+    + getDodo(): Dodo
+    + getSiguiente(): NodoDodo
+    + setSiguiente(siguiente: NodoDodo): void
+}
+NodoDodo --> "0..1" NodoDodo: <<referencia>>
+NodoDodo --> "1" Dodo: <<contiene>>
+
+class FilaDeDodosNexos {
+    - primero: NodoDodo
+    + FilaDeDodosNexos()
+}
+FilaDeDodos <|.. FilaDeDodosNexos: <<implementa>>
+FilaDeDodosNexos *--> "1" NodoDodo: <<referencia>>
+@enduml

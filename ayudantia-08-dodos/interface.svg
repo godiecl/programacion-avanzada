@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="161px" preserveAspectRatio="none" style="width:515px;height:160px;background:#FFFFFF;" version="1.1" viewBox="0 0 515 160" width="515.2px" zoomAndPan="magnify"><defs><filter height="300%" id="f99takj7huizp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.7999999999999994"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.599999999999999" dy="5.599999999999999" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0038a203bfa721b64d8dae25559ea663]
+class FilaDeDodos--><g id="elem_FilaDeDodos"><rect codeLine="3" fill="#FEFECE" filter="url(#f99takj7huizp)" height="132.8906" id="FilaDeDodos" style="stroke:#A80036;stroke-width:1.3999999999999997;" width="485.8" x="9.8" y="9.8"/><ellipse cx="189.35" cy="32.2" fill="#B4A7E5" rx="15.4" ry="15.4" style="stroke:#A80036;stroke-width:1.3999999999999997;"/><path d="M190.6844,27.4969 L190.6844,36.8156 L193.0906,36.8156 Q193.9437,36.8156 194.3156,37.1437 Q194.6875,37.4719 194.6875,38.0187 Q194.6875,38.5437 194.3156,38.8719 Q193.9437,39.2 193.0906,39.2 L185.8937,39.2 Q185.0406,39.2 184.6687,38.8719 Q184.2969,38.5437 184.2969,37.9969 Q184.2969,37.4719 184.6687,37.1437 Q185.0406,36.8156 185.8937,36.8156 L188.3,36.8156 L188.3,27.4969 L185.8937,27.4969 Q185.0406,27.4969 184.6687,27.1687 Q184.2969,26.8406 184.2969,26.2937 Q184.2969,25.7687 184.6687,25.4406 Q185.0406,25.1125 185.8937,25.1125 L193.0906,25.1125 Q193.9437,25.1125 194.3156,25.4406 Q194.6875,25.7687 194.6875,26.2937 Q194.6875,26.8406 194.3156,27.1687 Q193.9437,27.4969 193.0906,27.4969 L190.6844,27.4969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" font-style="italic" lengthAdjust="spacing" textLength="114.8" x="218.05" y="38.9949">FilaDeDodos</text><line style="stroke:#A80036;stroke-width:1.3999999999999997;" x1="11.2" x2="494.2" y1="54.6" y2="54.6"/><line style="stroke:#A80036;stroke-width:1.3999999999999997;" x1="11.2" x2="494.2" y1="65.8" y2="65.8"/><ellipse cx="25.2" cy="84.4484" fill="#84BE84" rx="4.2" ry="4.2" style="stroke:#038048;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="296.8" x="37.8" y="89.1434">agregarAlInicio(dodo: Dodo): void</text><ellipse cx="25.2" cy="106.3453" fill="#84BE84" rx="4.2" ry="4.2" style="stroke:#038048;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="449.4" x="37.8" y="111.0402">agregarEnPosicion(dodo: Dodo, posicion: int): void</text><ellipse cx="25.2" cy="128.2422" fill="#84BE84" rx="4.2" ry="4.2" style="stroke:#038048;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="226.8" x="37.8" y="132.9371">sacar(posicion: int): Dodo</text></g><!--MD5=[d65d74d88d2c547dfe955e3033f9dd8f]
+@startuml
+skin rose
+
+interface FilaDeDodos {
+    + agregarAlInicio(dodo: Dodo): void
+    + agregarEnPosicion(dodo: Dodo, posicion: int): void
+    + sacar(posicion: int): Dodo
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 CLT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

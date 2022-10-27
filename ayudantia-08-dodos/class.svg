@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="866.4px" preserveAspectRatio="none" style="width:532px;height:866px;background:#FFFFFF;" version="1.1" viewBox="0 0 532 866" width="532.8px" zoomAndPan="magnify"><defs><filter height="300%" id="f92dysswlbon6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.4"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.8" dy="4.8" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0038a203bfa721b64d8dae25559ea663]
+class FilaDeDodos--><g id="elem_FilaDeDodos"><rect codeLine="5" fill="#FEFECE" filter="url(#f92dysswlbon6)" height="113.9063" id="FilaDeDodos" style="stroke:#A80036;stroke-width:1.2;" width="416.4" x="8.4" y="8.4"/><ellipse cx="162.3" cy="27.6" fill="#B4A7E5" rx="13.2" ry="13.2" style="stroke:#A80036;stroke-width:1.2;"/><path d="M163.4438,23.5687 L163.4438,31.5563 L165.5063,31.5563 Q166.2375,31.5563 166.5563,31.8375 Q166.875,32.1188 166.875,32.5875 Q166.875,33.0375 166.5563,33.3188 Q166.2375,33.6 165.5063,33.6 L159.3375,33.6 Q158.6063,33.6 158.2875,33.3188 Q157.9688,33.0375 157.9688,32.5688 Q157.9688,32.1188 158.2875,31.8375 Q158.6063,31.5563 159.3375,31.5563 L161.4,31.5563 L161.4,23.5687 L159.3375,23.5687 Q158.6063,23.5687 158.2875,23.2875 Q157.9688,23.0062 157.9688,22.5375 Q157.9688,22.0875 158.2875,21.8063 Q158.6063,21.525 159.3375,21.525 L165.5063,21.525 Q166.2375,21.525 166.5563,21.8063 Q166.875,22.0875 166.875,22.5375 Q166.875,23.0062 166.5563,23.2875 Q166.2375,23.5687 165.5063,23.5687 L163.4438,23.5687 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="16.8" font-style="italic" lengthAdjust="spacing" textLength="98.4" x="186.9" y="33.4242">FilaDeDodos</text><line style="stroke:#A80036;stroke-width:1.2;" x1="9.6" x2="423.6" y1="46.8" y2="46.8"/><line style="stroke:#A80036;stroke-width:1.2;" x1="9.6" x2="423.6" y1="56.4" y2="56.4"/><ellipse cx="21.6" cy="72.3844" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="254.4" x="32.4" y="76.4086">agregarAlInicio(dodo: Dodo): void</text><ellipse cx="21.6" cy="91.1531" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="385.2" x="32.4" y="95.1773">agregarEnPosicion(dodo: Dodo, posicion: int): void</text><ellipse cx="21.6" cy="109.9219" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="194.4" x="32.4" y="113.9461">sacar(posicion: int): Dodo</text></g><!--MD5=[a0af0046faf9a1e2731066423ae6af84]
+class Dodo--><g id="elem_Dodo"><rect codeLine="11" fill="#FEFECE" filter="url(#f92dysswlbon6)" height="188.9813" id="Dodo" style="stroke:#A80036;stroke-width:1.2;" width="352.8" x="40.2" y="661.2"/><ellipse cx="191.1" cy="680.4" fill="#ADD1B2" rx="13.2" ry="13.2" style="stroke:#A80036;stroke-width:1.2;"/><path d="M194.4188,675.45 Q194.6063,675.1875 194.8312,675.0563 Q195.0563,674.925 195.3188,674.925 Q195.7687,674.925 196.05,675.2438 Q196.3312,675.5437 196.3312,676.275 L196.3312,678.0188 Q196.3312,678.75 196.05,679.0688 Q195.7687,679.3875 195.3188,679.3875 Q194.9063,679.3875 194.6625,679.1438 Q194.4188,678.9187 194.2875,678.3 Q194.2313,677.8688 194.0063,677.6438 Q193.6125,677.1938 192.8813,676.9313 Q192.15,676.6687 191.4,676.6687 Q190.4813,676.6687 189.7125,677.0625 Q188.9625,677.4563 188.3625,678.3562 Q187.7813,679.2563 187.7813,680.4938 L187.7813,681.8063 Q187.7813,683.2875 188.85,684.2813 Q189.9188,685.2563 191.8312,685.2563 Q192.9562,685.2563 193.7438,684.9563 Q194.2125,684.7688 194.7188,684.2438 Q195.0375,683.925 195.2062,683.8313 Q195.3937,683.7375 195.6375,683.7375 Q196.0313,683.7375 196.3312,684.0563 Q196.65,684.3562 196.65,684.7688 Q196.65,685.1813 196.2375,685.6687 Q195.6375,686.3625 194.6813,686.7563 Q193.3875,687.3 191.8312,687.3 Q190.0125,687.3 188.5688,686.55 Q187.3875,685.95 186.5625,684.675 Q185.7375,683.3813 185.7375,681.8438 L185.7375,680.4563 Q185.7375,678.8625 186.4688,677.4938 Q187.2188,676.1062 188.5313,675.375 Q189.8438,674.625 191.325,674.625 Q192.2062,674.625 192.975,674.8313 Q193.7625,675.0188 194.4188,675.45 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="40.8" x="215.7" y="686.2242">Dodo</text><line style="stroke:#A80036;stroke-width:1.2;" x1="41.4" x2="391.8" y1="699.6" y2="699.6"/><rect fill="none" height="7.2" style="stroke:#C82930;stroke-width:1.2;" width="7.2" x="49.8" y="711.9844"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="111.6" x="64.2" y="719.6086">nombre: String</text><rect fill="none" height="7.2" style="stroke:#C82930;stroke-width:1.2;" width="7.2" x="49.8" y="730.7531"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="66" x="64.2" y="738.3773">edad: int</text><rect fill="none" height="7.2" style="stroke:#C82930;stroke-width:1.2;" width="7.2" x="49.8" y="749.5219"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="72" x="64.2" y="757.1461">grado: int</text><line style="stroke:#A80036;stroke-width:1.2;" x1="41.4" x2="391.8" y1="765.5063" y2="765.5063"/><ellipse cx="53.4" cy="781.4906" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="321.6" x="64.2" y="785.5148">Dodo(nombre: String, edad: int, grado: int)</text><ellipse cx="53.4" cy="800.2594" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="148.8" x="64.2" y="804.2836">getNombre(): String</text><ellipse cx="53.4" cy="819.0281" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="103.2" x="64.2" y="823.0523">getEdad(): int</text><ellipse cx="53.4" cy="837.7969" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="111.6" x="64.2" y="841.8211">getGrado(): int</text></g><!--MD5=[c2efd6abbda7b173dfd83b4e5f100570]
+class NodoDodo--><g id="elem_NodoDodo"><rect codeLine="21" fill="#FEFECE" filter="url(#f92dysswlbon6)" height="170.2125" id="NodoDodo" style="stroke:#A80036;stroke-width:1.2;" width="336" x="48.6" y="399.6"/><ellipse cx="171.3" cy="418.8" fill="#ADD1B2" rx="13.2" ry="13.2" style="stroke:#A80036;stroke-width:1.2;"/><path d="M174.6188,413.85 Q174.8063,413.5875 175.0313,413.4563 Q175.2563,413.325 175.5187,413.325 Q175.9688,413.325 176.25,413.6438 Q176.5313,413.9437 176.5313,414.675 L176.5313,416.4188 Q176.5313,417.15 176.25,417.4688 Q175.9688,417.7875 175.5187,417.7875 Q175.1063,417.7875 174.8625,417.5438 Q174.6188,417.3187 174.4875,416.7 Q174.4313,416.2688 174.2062,416.0438 Q173.8125,415.5938 173.0812,415.3313 Q172.35,415.0687 171.6,415.0687 Q170.6813,415.0687 169.9125,415.4625 Q169.1625,415.8563 168.5625,416.7562 Q167.9813,417.6563 167.9813,418.8938 L167.9813,420.2063 Q167.9813,421.6875 169.05,422.6813 Q170.1188,423.6563 172.0313,423.6563 Q173.1563,423.6563 173.9438,423.3563 Q174.4125,423.1688 174.9188,422.6438 Q175.2375,422.325 175.4063,422.2313 Q175.5938,422.1375 175.8375,422.1375 Q176.2313,422.1375 176.5313,422.4563 Q176.85,422.7562 176.85,423.1688 Q176.85,423.5813 176.4375,424.0687 Q175.8375,424.7625 174.8813,425.1563 Q173.5875,425.7 172.0313,425.7 Q170.2125,425.7 168.7687,424.95 Q167.5875,424.35 166.7625,423.075 Q165.9375,421.7813 165.9375,420.2438 L165.9375,418.8563 Q165.9375,417.2625 166.6688,415.8938 Q167.4188,414.5062 168.7313,413.775 Q170.0438,413.025 171.525,413.025 Q172.4063,413.025 173.175,413.2313 Q173.9625,413.4188 174.6188,413.85 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="80.4" x="195.9" y="424.6242">NodoDodo</text><line style="stroke:#A80036;stroke-width:1.2;" x1="49.8" x2="383.4" y1="438" y2="438"/><rect fill="none" height="7.2" style="stroke:#C82930;stroke-width:1.2;" width="7.2" x="58.2" y="450.3844"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="88.8" x="72.6" y="458.0086">dodo: Dodo</text><rect fill="none" height="7.2" style="stroke:#C82930;stroke-width:1.2;" width="7.2" x="58.2" y="469.1531"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="158.4" x="72.6" y="476.7773">siguiente: NodoDodo</text><line style="stroke:#A80036;stroke-width:1.2;" x1="49.8" x2="383.4" y1="485.1375" y2="485.1375"/><rect fill="#F24D5C" height="7.2" style="stroke:#C82930;stroke-width:1.2;" width="7.2" x="58.2" y="497.5219"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="181.2" x="72.6" y="505.1461">NodoDodo(dodo: Dodo)</text><ellipse cx="61.8" cy="519.8906" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="127.2" x="72.6" y="523.9148">getDodo(): Dodo</text><ellipse cx="61.8" cy="538.6594" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="196.8" x="72.6" y="542.6836">getSiguiente(): NodoDodo</text><ellipse cx="61.8" cy="557.4281" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="304.8" x="72.6" y="561.4523">setSiguiente(siguiente: NodoDodo): void</text></g><!--MD5=[d465be2e17238a635cf9e6bfa641ac27]
+class FilaDeDodosNexos--><g id="elem_FilaDeDodosNexos"><rect codeLine="32" fill="#FEFECE" filter="url(#f92dysswlbon6)" height="95.1375" id="FilaDeDodosNexos" style="stroke:#A80036;stroke-width:1.2;" width="187.2" x="123" y="213.6"/><ellipse cx="143.16" cy="232.8" fill="#ADD1B2" rx="13.2" ry="13.2" style="stroke:#A80036;stroke-width:1.2;"/><path d="M146.4788,227.85 Q146.6663,227.5875 146.8912,227.4562 Q147.1162,227.325 147.3788,227.325 Q147.8287,227.325 148.11,227.6437 Q148.3912,227.9438 148.3912,228.675 L148.3912,230.4188 Q148.3912,231.15 148.11,231.4688 Q147.8287,231.7875 147.3788,231.7875 Q146.9663,231.7875 146.7225,231.5438 Q146.4788,231.3188 146.3475,230.7 Q146.2913,230.2687 146.0663,230.0438 Q145.6725,229.5938 144.9413,229.3312 Q144.21,229.0688 143.46,229.0688 Q142.5413,229.0688 141.7725,229.4625 Q141.0225,229.8563 140.4225,230.7563 Q139.8413,231.6563 139.8413,232.8937 L139.8413,234.2062 Q139.8413,235.6875 140.91,236.6812 Q141.9788,237.6563 143.8912,237.6563 Q145.0162,237.6563 145.8037,237.3563 Q146.2725,237.1688 146.7788,236.6437 Q147.0975,236.325 147.2662,236.2313 Q147.4537,236.1375 147.6975,236.1375 Q148.0913,236.1375 148.3912,236.4562 Q148.71,236.7563 148.71,237.1688 Q148.71,237.5812 148.2975,238.0688 Q147.6975,238.7625 146.7412,239.1563 Q145.4475,239.7 143.8912,239.7 Q142.0725,239.7 140.6288,238.95 Q139.4475,238.35 138.6225,237.075 Q137.7975,235.7813 137.7975,234.2437 L137.7975,232.8563 Q137.7975,231.2625 138.5288,229.8937 Q139.2788,228.5063 140.5913,227.775 Q141.9038,227.025 143.385,227.025 Q144.2662,227.025 145.035,227.2313 Q145.8225,227.4188 146.4788,227.85 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="144" x="160.44" y="238.6242">FilaDeDodosNexos</text><line style="stroke:#A80036;stroke-width:1.2;" x1="124.2" x2="309" y1="252" y2="252"/><rect fill="none" height="7.2" style="stroke:#C82930;stroke-width:1.2;" width="7.2" x="132.6" y="264.3844"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="147.6" x="147" y="272.0086">primero: NodoDodo</text><line style="stroke:#A80036;stroke-width:1.2;" x1="124.2" x2="309" y1="280.3688" y2="280.3688"/><ellipse cx="136.2" cy="296.3531" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="156" x="147" y="300.3773">FilaDeDodosNexos()</text></g><!--MD5=[a36a2ae163bf361401f676469bbace94]
+link NodoDodo to NodoDodo--><g id="link_NodoDodo_NodoDodo"><path codeLine="29" d="M384.66,462.756 C409.68,466.188 426.6,473.532 426.6,484.8 C426.6,495.096 412.464,502.116 390.924,505.872 " fill="none" id="NodoDodo-to-NodoDodo" style="stroke:#A80036;stroke-width:1.2;"/><polygon fill="#A80036" points="384.66,506.844,396.071,509.9212,390.5882,505.9188,394.5907,500.436,384.66,506.844" style="stroke:#A80036;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="84" x="433.8" y="490.5223">«referencia»</text><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="26.4" x="394.0062" y="504.8908">0..1</text></g><!--MD5=[11d1b9767bb1493a509d3e65d58ccfd0]
+link NodoDodo to Dodo--><g id="link_NodoDodo_Dodo"><path codeLine="30" d="M216.6,570.12 C216.6,596.976 216.6,626.94 216.6,654.78 " fill="none" id="NodoDodo-to-Dodo" style="stroke:#A80036;stroke-width:1.2;"/><polygon fill="#A80036" points="216.6,661.044,221.4,650.244,216.6,655.044,211.8,650.244,216.6,661.044" style="stroke:#A80036;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="75.6" x="217.8" y="621.3223">«contiene»</text><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="8.4" x="207.7866" y="648.2535">1</text></g><!--MD5=[ea88d42ac5b633b035354e905a9a8770]
+reverse link FilaDeDodos to FilaDeDodosNexos--><g id="link_FilaDeDodos_FilaDeDodosNexos"><path codeLine="36" d="M216.6,146.484 C216.6,169.308 216.6,193.404 216.6,213.492 " fill="none" id="FilaDeDodos-backto-FilaDeDodosNexos" style="stroke:#A80036;stroke-width:1.2;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="208.2,146.484,216.6,122.484,225,146.484,208.2,146.484" style="stroke:#A80036;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="97.2" x="217.8" y="173.7223">«implementa»</text></g><!--MD5=[c1dc65e6dad0b7f623554b602d6d6cad]
+link FilaDeDodosNexos to NodoDodo--><g id="link_FilaDeDodosNexos_NodoDodo"><path codeLine="37" d="M216.6,323.016 C216.6,323.016 216.6,363.252 216.6,383.304 " fill="none" id="FilaDeDodosNexos-NodoDodo" style="stroke:#A80036;stroke-width:1.2;"/><polygon fill="#A80036" points="216.6,399.24,221.4,388.44,216.6,393.24,211.8,388.44,216.6,399.24" style="stroke:#A80036;stroke-width:1.2;"/><line style="stroke:#A80036;stroke-width:1.2;" x1="216.6" x2="216.6" y1="393.24" y2="383.64"/><polygon fill="#A80036" points="216.6,308.616,211.8,315.816,216.6,323.016,221.4,315.816,216.6,308.616" style="stroke:#A80036;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="84" x="217.8" y="359.7223">«referencia»</text><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="8.4" x="207.7669" y="386.9147">1</text></g><!--MD5=[6fc14a69d320eefe6304df52787dc9f1]
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+interface FilaDeDodos {
+    + agregarAlInicio(dodo: Dodo): void
+    + agregarEnPosicion(dodo: Dodo, posicion: int): void
+    + sacar(posicion: int): Dodo
+}
+
+class Dodo {
+    - nombre: String
+    - edad: int
+    - grado: int
+    + Dodo(nombre: String, edad: int, grado: int)
+    + getNombre(): String
+    + getEdad(): int
+    + getGrado(): int
+}
+
+class NodoDodo {
+    - dodo: Dodo
+    - siguiente: NodoDodo
+    - NodoDodo(dodo: Dodo)
+    + getDodo(): Dodo
+    + getSiguiente(): NodoDodo
+    + setSiguiente(siguiente: NodoDodo): void
+}
+NodoDodo - -> "0..1" NodoDodo: <<referencia>>
+NodoDodo - -> "1" Dodo: <<contiene>>
+
+class FilaDeDodosNexos {
+    - primero: NodoDodo
+    + FilaDeDodosNexos()
+}
+FilaDeDodos <|.. FilaDeDodosNexos: <<implementa>>
+FilaDeDodosNexos *- -> "1" NodoDodo: <<referencia>>
+@enduml
+
+@startuml
+skin rose
+
+interface FilaDeDodos {
+    + agregarAlInicio(dodo: Dodo): void
+    + agregarEnPosicion(dodo: Dodo, posicion: int): void
+    + sacar(posicion: int): Dodo
+}
+
+class Dodo {
+    - nombre: String
+    - edad: int
+    - grado: int
+    + Dodo(nombre: String, edad: int, grado: int)
+    + getNombre(): String
+    + getEdad(): int
+    + getGrado(): int
+}
+
+class NodoDodo {
+    - dodo: Dodo
+    - siguiente: NodoDodo
+    - NodoDodo(dodo: Dodo)
+    + getDodo(): Dodo
+    + getSiguiente(): NodoDodo
+    + setSiguiente(siguiente: NodoDodo): void
+}
+NodoDodo - -> "0..1" NodoDodo: <<referencia>>
+NodoDodo - -> "1" Dodo: <<contiene>>
+
+class FilaDeDodosNexos {
+    - primero: NodoDodo
+    + FilaDeDodosNexos()
+}
+FilaDeDodos <|.. FilaDeDodosNexos: <<implementa>>
+FilaDeDodosNexos *- -> "1" NodoDodo: <<referencia>>
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 CLT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
