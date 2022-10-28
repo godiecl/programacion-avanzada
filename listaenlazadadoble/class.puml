@@ -1,0 +1,88 @@
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+package cl.ucn.disc.pa.listaenlazada {
+
+    package colecciones {
+        interface Elemento <<interface>> {
+            + esIgual(elemento: Elemento): boolean
+            + compararCon(elemento: Elemento): int
+        }
+
+        class Nodo {
+            + Nodo(elemento: Elemento)
+            + getElemento(): Elemento
+            + getSiguiente(): Nodo
+            + setSiguiente(siguiente: Nodo): void
+        }
+        Nodo *--> "1" Elemento: - elemento: Elemento
+        Nodo o--> "0..1" Nodo: - siguiente: Nodo
+
+        interface Coleccion <<interface>> {
+            + agregar(elemento: Elemento): boolean
+            + contiene(elemento: Elemento): boolean
+            + vaciar(): void
+            + isVacia(): boolean
+            + eliminar(elemento: Elemento): boolean
+            + tamanio(): int
+        }
+        Coleccion ..> Elemento: <<uses>>
+
+        interface Lista <<interface>> {
+            + agregar(posicion: int, elemento: Elemento): void
+            + obtener(posicion: int): Elemento
+            + posicionDe(elemento: Elemento): int
+            + eliminar(posicion: int): Elemento
+        }
+        Lista ---|> Coleccion: <<extends>>
+
+        class ListaNexoSimple {
+            + ListaNexoSimple()
+        }
+        ListaNexoSimple *--> "0..1" Nodo: - cabeza: Nodo
+        ListaNexoSimple ..|> Lista: <<implements>>
+
+        class NodoDoble {
+            + NodoDoble()
+            + getElemento(): Elemento
+            + getSiguiente(): NodoDoble
+            + setSiguiente(siguiente: NodoDoble): void
+            + getAnterior(): NodoDoble
+            + setAnterior(anterior: NodoDoble): void
+        }
+        NodoDoble *--> "1" Elemento: - elemento: Elemento
+        NodoDoble o--> "0..1" NodoDoble: - siguiente: Nodo
+        NodoDoble o--> "0..1" NodoDoble: - anterior: Nodo
+
+        class ListaNexoDoble {
+            + ListaNexoDoble()
+        }
+        ListaNexoDoble *--> "0..1" NodoDoble: - cabeza: Nodo
+        ListaNexoDoble *--> "0..1" NodoDoble: - cola: Nodo
+        ListaNexoDoble ..|> Lista: <<implements>>
+
+    }
+
+    package model {
+
+        class Vehiculo {
+            - placa: String
+            - marca: String
+            - modelo: String
+            + Vehiculo(placa: String, marca: String, modelo: String)
+            + getPlaca(): String
+            + getMarca(): String
+            + getModelo(): String
+        }
+        Vehiculo ..|> Elemento: <<implements>>
+
+    }
+
+}
+
+
+
+
+@enduml
