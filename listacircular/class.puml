@@ -1,0 +1,72 @@
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+package cl.ucn.disc.pa.listas {
+
+    package colecciones {
+
+        interface Elemento <<interface>> {
+            + esIgual(elemento: Elemento): boolean
+            + compararCon(elemento: Elemento): int
+        }
+
+        interface Coleccion <<interface>> {
+            + agregar(elemento: Elemento): boolean
+            + contiene(elemento: Elemento): boolean
+            + vaciar(): void
+            + isVacia(): boolean
+            + eliminar(elemento: Elemento): boolean
+            + tamanio(): int
+        }
+        Coleccion ..> Elemento: <<uses>>
+
+        interface Lista <<interface>> extends Coleccion {
+            + agregar(posicion: int, elemento: Elemento): void
+            + obtener(posicion: int): Elemento
+            + posicionDe(elemento: Elemento): int
+            + eliminar(posicion: int): Elemento
+        }
+
+        class NodoSimpleCircular {
+            + NodoSimpleCircular()
+            + toString(): String
+        }
+        NodoSimpleCircular --> "1" Elemento: - elemento: Elemento
+        NodoSimpleCircular --> "0..1" NodoSimpleCircular: - siguiente: Nodo
+
+        class ListaNexoSimpleCircular implements Lista {
+            + ListaNexoSimpleCircular()
+            + toString(): String
+        }
+        ListaNexoSimpleCircular --> "0..1" NodoSimpleCircular: - primero: Nodo
+        ListaNexoSimpleCircular --> "0..1" NodoSimpleCircular: - ultimo: Nodo
+        ListaNexoSimpleCircular +-- NodoSimpleCircular
+
+        /'
+        class ListaNexoDobleCircular implements Lista {
+            + ListaNexoDobleCircular()
+        }
+        ListaNexoDobleCircular --> "0..1" NodoDoble: - cabeza: Nodo
+        ListaNexoDobleCircular --> "0..1" NodoDoble: - cola: Nodo
+        '/
+    }
+
+    package model {
+
+        class Entero implements Elemento {
+            - valor: int
+            + Entero(valor: int)
+            + getValor(): int
+            + toString(): String
+        }
+
+    }
+
+}
+
+
+
+
+@enduml

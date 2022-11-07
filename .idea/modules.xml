@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ayudantia-08-dodos/ayudantia-08-dodos.iml" filepath="$PROJECT_DIR$/ayudantia-08-dodos/ayudantia-08-dodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/code.iml" filepath="$PROJECT_DIR$/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listacircular/listacircular.iml" filepath="$PROJECT_DIR$/listacircular/listacircular.iml" />
       <module fileurl="file://$PROJECT_DIR$/listaenlazada/listaenlazada.iml" filepath="$PROJECT_DIR$/listaenlazada/listaenlazada.iml" />
       <module fileurl="file://$PROJECT_DIR$/listaenlazadadoble/listaenlazadadoble.iml" filepath="$PROJECT_DIR$/listaenlazadadoble/listaenlazadadoble.iml" />
       <module fileurl="file://$PROJECT_DIR$/mandiosoft/mandiosoft.iml" filepath="$PROJECT_DIR$/mandiosoft/mandiosoft.iml" />
