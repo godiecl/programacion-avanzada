@@ -76,6 +76,7 @@ public final class ListaNexoSimpleCircular implements Lista {
         }
     }
 
+
     /**
      * Agrega un elemento a la coleccion.
      *
@@ -101,6 +102,35 @@ public final class ListaNexoSimpleCircular implements Lista {
         ultimo.siguiente = nuevo;
         ultimo = nuevo;
         return true;
+    }
+
+    /**
+     * Obtiene el elemento que se encuentra en la posicion indicada.
+     *
+     * @param posicion a obtener.
+     * @return the Elemento.
+     */
+    @Override
+    public Elemento obtener(int posicion) {
+
+        // Lista vacia, no hay posicion.l
+        if (this.isVacia()) {
+            return null;
+        }
+
+        NodoSimpleCircular aux = this.primero;
+        int counter = 0;
+        do {
+            // lo encontre en la posicion
+            if (counter == posicion) {
+                return aux.elemento;
+            }
+            aux = aux.siguiente;
+            counter++;
+        } while (aux != this.primero);
+
+        // no lo encontre
+        return null;
     }
 
     /**

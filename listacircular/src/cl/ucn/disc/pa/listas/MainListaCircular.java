@@ -7,6 +7,7 @@
 
 package cl.ucn.disc.pa.listas;
 
+import cl.ucn.disc.pa.listas.colecciones.Elemento;
 import cl.ucn.disc.pa.listas.colecciones.Lista;
 import cl.ucn.disc.pa.listas.colecciones.ListaNexoSimpleCircular;
 import cl.ucn.disc.pa.listas.model.Entero;
@@ -36,21 +37,27 @@ public final class MainListaCircular {
         }
 
         // insertar [ 1 2 .. 10 ]
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 0; i <= 10; i++) {
             lista.agregar(new Entero(i));
         }
 
         // Impresion de la lista
         System.out.println("Lista: " + lista);
 
-        lista.agregar(10, new Entero(11));
+        lista.agregar(11, new Entero(11));
 
         // Impresion de la lista
         System.out.println("Lista: " + lista);
 
+        Elemento e = lista.obtener(5);
+        if (e == null || !e.esIgual(new Entero(5))) {
+            System.err.println("Error: el elemento 5 no esta en la posicion 5 o es null");
+            System.exit(-1);
+        }
+
         // check: tamanio
-        if (lista.tamanio() != 11) {
-            System.err.println("Error: tamanio incorrecto, esperado 11, obtenido " + lista.tamanio());
+        if (lista.tamanio() != 12) {
+            System.err.println("Error: tamanio incorrecto, esperado 12, obtenido " + lista.tamanio());
             System.exit(-1);
         }
 
@@ -83,6 +90,7 @@ public final class MainListaCircular {
 
         lista.eliminar(new Entero(2));
         lista.eliminar(new Entero(8));
+        lista.eliminar(new Entero(0));
         lista.eliminar(new Entero(9));
         lista.eliminar(new Entero(6));
         lista.eliminar(new Entero(11));
