@@ -29,4 +29,11 @@ public interface Lista extends Coleccion {
      * @return the Elemento.
      */
     Elemento obtener(int posicion);
+
+    /**
+     * Retorna la posicion del elemento e.
+     * @param e a identificar.
+     * @return the posicion, -1 si no existe.
+     */
+    int posicionDe(Elemento e);
 }

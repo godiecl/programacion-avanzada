@@ -55,6 +55,11 @@ public final class MainListaCircular {
             System.exit(-1);
         }
 
+        if (lista.posicionDe(new Entero(9)) != 9) {
+            System.err.println("Error: el elemento 9 no esta en la posicion 9");
+            System.exit(-1);
+        }
+
         // check: tamanio
         if (lista.tamanio() != 12) {
             System.err.println("Error: tamanio incorrecto, esperado 12, obtenido " + lista.tamanio());

@@ -8,7 +8,7 @@
 package cl.ucn.disc.pa.listas.colecciones;
 
 /**
- * The Coleccionl.
+ * The Coleccion.
  *
  * @author Programacion Avanzada.
  */

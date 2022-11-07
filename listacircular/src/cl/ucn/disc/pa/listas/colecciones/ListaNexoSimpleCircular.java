@@ -113,7 +113,7 @@ public final class ListaNexoSimpleCircular implements Lista {
     @Override
     public Elemento obtener(int posicion) {
 
-        // Lista vacia, no hay posicion.l
+        // Lista vacia, no hay posicion.
         if (this.isVacia()) {
             return null;
         }
@@ -131,6 +131,34 @@ public final class ListaNexoSimpleCircular implements Lista {
 
         // no lo encontre
         return null;
+    }
+
+    /**
+     * Retorna la posicion del elemento e.
+     *
+     * @param e a identificar.
+     * @return the posicion, -1 si no existe.
+     */
+    @Override
+    public int posicionDe(Elemento e) {
+
+        // Lista vacia, no hay posicion.
+        if (this.isVacia()) {
+            return -1;
+        }
+
+        NodoSimpleCircular aux = this.primero;
+        int counter = 0;
+        do {
+            // lo encontre en la posicion
+            if (aux.elemento.esIgual(e)) {
+                return counter;
+            }
+            aux = aux.siguiente;
+            counter++;
+        } while (aux != this.primero);
+
+        return -1;
     }
 
     /**
