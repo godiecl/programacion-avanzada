@@ -76,12 +76,15 @@ public final class ListaNexoSimpleCircular implements Lista {
         }
 
         NodoSimpleCircular aux = this.primero;
+        // recorrido de la lista
         do {
+            // si el elemento en el nodo es igual al que busco
             if (aux.elemento.esIgual(e)) {
                 return true;
             }
+            // avanzo al nodo siguiente
             aux = aux.siguiente;
-        } while (aux != this.primero);
+        } while (aux != this.primero); // hasta llegar a uno antes de la cabeza
 
         return false;
     }
@@ -94,6 +97,7 @@ public final class ListaNexoSimpleCircular implements Lista {
      */
     @Override
     public boolean eliminar(Elemento e) {
+
         // lista vacia
         if (this.isVacia()) {
             return false;
@@ -131,7 +135,8 @@ public final class ListaNexoSimpleCircular implements Lista {
         // caso: el elemento a eliminar esta en el medio
         anterior.siguiente = anterior.siguiente.siguiente;
 
-        return false;
+        // siempre es posible insertar.
+        return true;
     }
 
     /**
@@ -140,6 +145,7 @@ public final class ListaNexoSimpleCircular implements Lista {
      * @return el nodo anterior.
      */
     private NodoSimpleCircular buscarNodoAnteriorAlElemento(Elemento e) {
+
         // lista vacia
         if (this.isVacia()) {
             return null;
