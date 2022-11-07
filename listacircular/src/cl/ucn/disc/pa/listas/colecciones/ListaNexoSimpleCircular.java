@@ -35,6 +35,48 @@ public final class ListaNexoSimpleCircular implements Lista {
     }
 
     /**
+     * Agrega el Elemento en la posicion indicada.
+     *
+     * @param posicion a utilizar.
+     * @param e        a agregar.
+     */
+    @Override
+    public void agregar(int posicion, Elemento e) {
+
+        // posicion no valida
+        if (posicion < 0) {
+            throw new IndexOutOfBoundsException("No se pueden usar posiciones negativas");
+        }
+
+        // lista vacia
+        if (this.isVacia()) {
+            this.agregar(e);
+            return;
+        }
+
+        // nodo a insertar
+        NodoSimpleCircular nuevo = new NodoSimpleCircular(e);
+
+        // posicion 0
+        if (posicion == 0) {
+            nuevo.siguiente = this.primero;
+            this.primero = nuevo;
+            this.ultimo.siguiente = this.primero;
+            return;
+        }
+
+        // posicion mayor a 0
+        NodoSimpleCircular anterior = this.buscarNodoAnteriorAPosicion(posicion);
+        nuevo.siguiente = anterior.siguiente;
+        anterior.siguiente = nuevo;
+
+        // posicion final
+        if (anterior == this.ultimo) {
+            this.ultimo = nuevo;
+        }
+    }
+
+    /**
      * Agrega un elemento a la coleccion.
      *
      * @param e the elemento a agregar.
@@ -140,6 +182,29 @@ public final class ListaNexoSimpleCircular implements Lista {
     }
 
     /**
+     * Obtiene el Nodo que esta en la posicion anterior a la buscada.
+     *
+     * @param posicion a buscar
+     * @return the Nodo.
+     */
+    private NodoSimpleCircular buscarNodoAnteriorAPosicion(int posicion) {
+
+        NodoSimpleCircular aux = this.primero;
+        int counter = 0;
+        do {
+            if (counter == posicion - 1) {
+                return aux;
+            }
+            aux = aux.siguiente;
+            counter++;
+        } while (aux != this.primero);
+
+        // insertar al final
+        return this.ultimo;
+
+    }
+
+    /**
      * Retorna el nodo que se encuentra justo antes del elemento a eliminar.
      *
      * @return el nodo anterior.
@@ -235,6 +300,7 @@ public final class ListaNexoSimpleCircular implements Lista {
         sb.append("]");
         return sb.toString();
     }
+
 
     /**
      * The internal Nodo class.

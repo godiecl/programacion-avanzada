@@ -43,9 +43,14 @@ public final class MainListaCircular {
         // Impresion de la lista
         System.out.println("Lista: " + lista);
 
+        lista.agregar(10, new Entero(11));
+
+        // Impresion de la lista
+        System.out.println("Lista: " + lista);
+
         // check: tamanio
-        if (lista.tamanio() != 10) {
-            System.err.println("Error: tamanio incorrecto, esperado 10, obtenido " + lista.tamanio());
+        if (lista.tamanio() != 11) {
+            System.err.println("Error: tamanio incorrecto, esperado 11, obtenido " + lista.tamanio());
             System.exit(-1);
         }
 
@@ -80,6 +85,7 @@ public final class MainListaCircular {
         lista.eliminar(new Entero(8));
         lista.eliminar(new Entero(9));
         lista.eliminar(new Entero(6));
+        lista.eliminar(new Entero(11));
         lista.eliminar(new Entero(4));
         lista.eliminar(new Entero(3));
         lista.eliminar(new Entero(7));

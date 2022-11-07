@@ -13,4 +13,12 @@ package cl.ucn.disc.pa.listas.colecciones;
  * @author Programacion Avanzada.
  */
 public interface Lista extends Coleccion {
+
+    /**
+     * Agrega el Elemento en la posicion indicada.
+     * @param posicion a utilizar.
+     * @param e a agregar.
+     */
+    void agregar(int posicion, Elemento e);
+
 }
