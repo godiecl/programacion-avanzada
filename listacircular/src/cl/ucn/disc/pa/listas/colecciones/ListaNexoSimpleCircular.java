@@ -113,7 +113,7 @@ public final class ListaNexoSimpleCircular implements Lista {
     @Override
     public Elemento obtener(int posicion) {
 
-        // Lista vacia, no hay posicion.
+        // lista vacia, no hay posicion.
         if (this.isVacia()) {
             return null;
         }
@@ -142,7 +142,7 @@ public final class ListaNexoSimpleCircular implements Lista {
     @Override
     public int posicionDe(Elemento e) {
 
-        // Lista vacia, no hay posicion.
+        // lista vacia, no hay posicion.
         if (this.isVacia()) {
             return -1;
         }
@@ -160,6 +160,7 @@ public final class ListaNexoSimpleCircular implements Lista {
 
         return -1;
     }
+
 
     /**
      * Retorna true si el elemento esta en la coleccion.
@@ -237,6 +238,27 @@ public final class ListaNexoSimpleCircular implements Lista {
 
         // siempre es posible insertar.
         return true;
+    }
+
+    /**
+     * Elimina el elemento que se encuentra en la posicion indicada.
+     *
+     * @param posicion a eliminar.
+     * @return the Elemento eliminado.
+     */
+    @Override
+    public Elemento eliminar(int posicion) {
+
+        // lista vacia, no hay posicion.
+        if (this.isVacia()) {
+            return null;
+        }
+
+        // nodo anterior al elemento a eliminar
+        NodoSimpleCircular anterior = this.buscarNodoAnteriorAPosicion(posicion);
+        // TODO: Terminar el metodo!
+
+        return null;
     }
 
     /**
@@ -346,6 +368,7 @@ public final class ListaNexoSimpleCircular implements Lista {
             return "[ ]";
         }
 
+        // stringbuilder para generar el string
         StringBuilder sb = new StringBuilder();
         sb.append("[ ");
 
@@ -370,12 +393,12 @@ public final class ListaNexoSimpleCircular implements Lista {
         /**
          * The Elemento.
          */
-        final Elemento elemento;
+        private final Elemento elemento;
 
         /**
          * The siguiente.
          */
-        NodoSimpleCircular siguiente;
+        private NodoSimpleCircular siguiente;
 
         /**
          * The Constructor.
@@ -398,4 +421,5 @@ public final class ListaNexoSimpleCircular implements Lista {
             return this.elemento.toString();
         }
     }
+
 }

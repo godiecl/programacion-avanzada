@@ -32,8 +32,17 @@ public interface Lista extends Coleccion {
 
     /**
      * Retorna la posicion del elemento e.
+     *
      * @param e a identificar.
      * @return the posicion, -1 si no existe.
      */
     int posicionDe(Elemento e);
+
+    /**
+     * Elimina el elemento que se encuentra en la posicion indicada.
+     *
+     * @param posicion a eliminar.
+     * @return the Elemento eliminado.
+     */
+    Elemento eliminar(int posicion);
 }
