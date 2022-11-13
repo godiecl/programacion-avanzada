@@ -1,0 +1,34 @@
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+package java.util {
+
+    interface Iterator<E> <<interface>> {
+        + hasNext() : boolean
+        + next() : E
+        + remove() : void
+    }
+
+}
+
+/'
+package cl.ucn.disc.pa.iterator {
+
+    package model {
+
+        class Entero {
+            - valor: int
+            + Entero(valor: int)
+            + getValor(): int
+            + toString(): String
+            + equals(o: Object): boolean
+        }
+
+    }
+
+}
+'/
+
+@enduml
