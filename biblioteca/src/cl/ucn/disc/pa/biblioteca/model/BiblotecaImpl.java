@@ -51,4 +51,24 @@ public final class BiblotecaImpl implements Biblioteca {
         }
         throw new IllegalArgumentException("Letra no encontrada!");
     }
+
+    /**
+     * Cambia el estado del libro identificado por el isbn bajo prestamo.
+     *
+     * @param isbn del libro a prestar.
+     */
+    @Override
+    public void prestarLibro(String isbn) {
+        // TODO: implementar el metodo
+    }
+
+    /**
+     * Cambia es estado del Libro identificado por el isbn disponible para prestamo.
+     *
+     * @param isbn del libro a prestar.
+     */
+    @Override
+    public void devolverLibro(String isbn) {
+        // TODO: implementar el metodo
+    }
 }

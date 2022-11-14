@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="634px" preserveAspectRatio="none" style="width:557px;height:634px;background:#FFFFFF;" version="1.1" viewBox="0 0 557 634" width="557px" zoomAndPan="magnify"><defs><filter height="300%" id="fhyphdypy3fu5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9d47835fd771a8e1bdc3aed3b86ab61a]
+cluster cl.ucn.disc.pa.biblioteca--><g id="cluster_cl.ucn.disc.pa.biblioteca"><polygon fill="none" filter="url(#fhyphdypy3fu5)" points="16,6,191,6,198,27.6406,540,27.6406,540,625,16,625,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="198" y1="27.6406" y2="27.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="20" y="20.6738">cl.ucn.disc.pa.biblioteca</text></g><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><g id="cluster_model"><polygon fill="none" filter="url(#fhyphdypy3fu5)" points="222,161,271,161,278,182.6406,516,182.6406,516,601,222,601,222,161" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="222" x2="278" y1="182.6406" y2="182.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="226" y="175.6738">model</text></g><!--MD5=[7a9d50148cf040a5a89ade3461b7deb1]
+class Biblioteca--><g id="elem_Biblioteca"><rect codeLine="33" fill="#FEFECE" filter="url(#fhyphdypy3fu5)" height="94.9219" id="Biblioteca" style="stroke:#A80036;stroke-width:1.0;" width="227" x="32.5" y="40"/><ellipse cx="111.25" cy="56" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M112.2031,52.6406 L112.2031,59.2969 L113.9219,59.2969 Q114.5313,59.2969 114.7969,59.5313 Q115.0625,59.7656 115.0625,60.1563 Q115.0625,60.5313 114.7969,60.7656 Q114.5313,61 113.9219,61 L108.7813,61 Q108.1719,61 107.9063,60.7656 Q107.6406,60.5313 107.6406,60.1406 Q107.6406,59.7656 107.9063,59.5313 Q108.1719,59.2969 108.7813,59.2969 L110.5,59.2969 L110.5,52.6406 L108.7813,52.6406 Q108.1719,52.6406 107.9063,52.4063 Q107.6406,52.1719 107.6406,51.7813 Q107.6406,51.4063 107.9063,51.1719 Q108.1719,50.9375 108.7813,50.9375 L113.9219,50.9375 Q114.5313,50.9375 114.7969,51.1719 Q115.0625,51.4063 115.0625,51.7813 Q115.0625,52.1719 114.7969,52.4063 Q114.5313,52.6406 113.9219,52.6406 L112.2031,52.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="61" x="131.75" y="60.8535">Biblioteca</text><line style="stroke:#A80036;stroke-width:1.0;" x1="33.5" x2="258.5" y1="72" y2="72"/><line style="stroke:#A80036;stroke-width:1.0;" x1="33.5" x2="258.5" y1="80" y2="80"/><ellipse cx="43.5" cy="93.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="52.5" y="96.6738">agregarLibro(libro: Libro): void</text><ellipse cx="43.5" cy="108.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="52.5" y="112.3145">prestarLibro(isbn: String): void</text><ellipse cx="43.5" cy="124.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="52.5" y="127.9551">devolverLibro(isbn: String): void</text></g><!--MD5=[4d342f9bc44cbd4d9534111a145e812f]
+class BibliotecaImpl--><g id="elem_BibliotecaImpl"><rect codeLine="39" fill="#FEFECE" filter="url(#fhyphdypy3fu5)" height="79.2813" id="BibliotecaImpl" style="stroke:#A80036;stroke-width:1.0;" width="174" x="32" y="234"/><ellipse cx="72.2" cy="250" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M74.9656,245.875 Q75.1219,245.6563 75.3094,245.5469 Q75.4969,245.4375 75.7156,245.4375 Q76.0906,245.4375 76.325,245.7031 Q76.5594,245.9531 76.5594,246.5625 L76.5594,248.0156 Q76.5594,248.625 76.325,248.8906 Q76.0906,249.1563 75.7156,249.1563 Q75.3719,249.1563 75.1688,248.9531 Q74.9656,248.7656 74.8563,248.25 Q74.8094,247.8906 74.6219,247.7031 Q74.2938,247.3281 73.6844,247.1094 Q73.075,246.8906 72.45,246.8906 Q71.6844,246.8906 71.0438,247.2188 Q70.4188,247.5469 69.9188,248.2969 Q69.4344,249.0469 69.4344,250.0781 L69.4344,251.1719 Q69.4344,252.4063 70.325,253.2344 Q71.2156,254.0469 72.8094,254.0469 Q73.7469,254.0469 74.4031,253.7969 Q74.7938,253.6406 75.2156,253.2031 Q75.4813,252.9375 75.6219,252.8594 Q75.7781,252.7813 75.9813,252.7813 Q76.3094,252.7813 76.5594,253.0469 Q76.825,253.2969 76.825,253.6406 Q76.825,253.9844 76.4813,254.3906 Q75.9813,254.9688 75.1844,255.2969 Q74.1063,255.75 72.8094,255.75 Q71.2938,255.75 70.0906,255.125 Q69.1063,254.625 68.4188,253.5625 Q67.7313,252.4844 67.7313,251.2031 L67.7313,250.0469 Q67.7313,248.7188 68.3406,247.5781 Q68.9656,246.4219 70.0594,245.8125 Q71.1531,245.1875 72.3875,245.1875 Q73.1219,245.1875 73.7625,245.3594 Q74.4188,245.5156 74.9656,245.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="91.8" y="254.8535">BibliotecaImpl</text><line style="stroke:#A80036;stroke-width:1.0;" x1="33" x2="205" y1="266" y2="266"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40" y="276.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="52" y="282.6738">estantes: List&lt;Estante&gt;</text><line style="stroke:#A80036;stroke-width:1.0;" x1="33" x2="205" y1="289.6406" y2="289.6406"/><ellipse cx="43" cy="302.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="52" y="306.3145">BibliotecaImpl()</text></g><!--MD5=[a48731e35e4efcfa96e52c126b9a7dad]
+class Libro--><g id="elem_Libro"><rect codeLine="9" fill="#FEFECE" filter="url(#fhyphdypy3fu5)" height="173.125" id="Libro" style="stroke:#A80036;stroke-width:1.0;" width="261" x="238.5" y="412"/><ellipse cx="348.75" cy="428" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M351.5156,423.875 Q351.6719,423.6563 351.8594,423.5469 Q352.0469,423.4375 352.2656,423.4375 Q352.6406,423.4375 352.875,423.7031 Q353.1094,423.9531 353.1094,424.5625 L353.1094,426.0156 Q353.1094,426.625 352.875,426.8906 Q352.6406,427.1563 352.2656,427.1563 Q351.9219,427.1563 351.7188,426.9531 Q351.5156,426.7656 351.4063,426.25 Q351.3594,425.8906 351.1719,425.7031 Q350.8438,425.3281 350.2344,425.1094 Q349.625,424.8906 349,424.8906 Q348.2344,424.8906 347.5938,425.2188 Q346.9688,425.5469 346.4688,426.2969 Q345.9844,427.0469 345.9844,428.0781 L345.9844,429.1719 Q345.9844,430.4063 346.875,431.2344 Q347.7656,432.0469 349.3594,432.0469 Q350.2969,432.0469 350.9531,431.7969 Q351.3438,431.6406 351.7656,431.2031 Q352.0313,430.9375 352.1719,430.8594 Q352.3281,430.7813 352.5313,430.7813 Q352.8594,430.7813 353.1094,431.0469 Q353.375,431.2969 353.375,431.6406 Q353.375,431.9844 353.0313,432.3906 Q352.5313,432.9688 351.7344,433.2969 Q350.6563,433.75 349.3594,433.75 Q347.8438,433.75 346.6406,433.125 Q345.6563,432.625 344.9688,431.5625 Q344.2813,430.4844 344.2813,429.2031 L344.2813,428.0469 Q344.2813,426.7188 344.8906,425.5781 Q345.5156,424.4219 346.6094,423.8125 Q347.7031,423.1875 348.9375,423.1875 Q349.6719,423.1875 350.3125,423.3594 Q350.9688,423.5156 351.5156,423.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="369.25" y="432.8535">Libro</text><line style="stroke:#A80036;stroke-width:1.0;" x1="239.5" x2="498.5" y1="444" y2="444"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="246.5" y="454.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="258.5" y="460.6738">isbn: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="246.5" y="469.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="258.5" y="476.3145">titulo String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="246.5" y="485.6016"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="258.5" y="491.9551">prestado: boolean</text><line style="stroke:#A80036;stroke-width:1.0;" x1="239.5" x2="498.5" y1="498.9219" y2="498.9219"/><ellipse cx="249.5" cy="512.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="258.5" y="515.5957">Libro(isbn: String, titulo: String)</text><ellipse cx="249.5" cy="527.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="258.5" y="531.2363">getIsbn(): String</text><ellipse cx="249.5" cy="543.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="258.5" y="546.877">getTitulo(): String</text><ellipse cx="249.5" cy="559.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="258.5" y="562.5176">isPrestado(): boolean</text><ellipse cx="249.5" cy="574.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="235" x="258.5" y="578.1582">setPrestado(prestado: boolean): void</text></g><!--MD5=[bdf268cfadbabf680715ccb794cf7f96]
+class Estante--><g id="elem_Estante"><rect codeLine="20" fill="#FEFECE" filter="url(#fhyphdypy3fu5)" height="157.4844" id="Estante" style="stroke:#A80036;stroke-width:1.0;" width="228" x="248" y="195"/><ellipse cx="333.75" cy="211" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M336.5156,206.875 Q336.6719,206.6563 336.8594,206.5469 Q337.0469,206.4375 337.2656,206.4375 Q337.6406,206.4375 337.875,206.7031 Q338.1094,206.9531 338.1094,207.5625 L338.1094,209.0156 Q338.1094,209.625 337.875,209.8906 Q337.6406,210.1563 337.2656,210.1563 Q336.9219,210.1563 336.7188,209.9531 Q336.5156,209.7656 336.4063,209.25 Q336.3594,208.8906 336.1719,208.7031 Q335.8438,208.3281 335.2344,208.1094 Q334.625,207.8906 334,207.8906 Q333.2344,207.8906 332.5938,208.2188 Q331.9688,208.5469 331.4688,209.2969 Q330.9844,210.0469 330.9844,211.0781 L330.9844,212.1719 Q330.9844,213.4063 331.875,214.2344 Q332.7656,215.0469 334.3594,215.0469 Q335.2969,215.0469 335.9531,214.7969 Q336.3438,214.6406 336.7656,214.2031 Q337.0313,213.9375 337.1719,213.8594 Q337.3281,213.7813 337.5313,213.7813 Q337.8594,213.7813 338.1094,214.0469 Q338.375,214.2969 338.375,214.6406 Q338.375,214.9844 338.0313,215.3906 Q337.5313,215.9688 336.7344,216.2969 Q335.6563,216.75 334.3594,216.75 Q332.8438,216.75 331.6406,216.125 Q330.6563,215.625 329.9688,214.5625 Q329.2813,213.4844 329.2813,212.2031 L329.2813,211.0469 Q329.2813,209.7188 329.8906,208.5781 Q330.5156,207.4219 331.6094,206.8125 Q332.7031,206.1875 333.9375,206.1875 Q334.6719,206.1875 335.3125,206.3594 Q335.9688,206.5156 336.5156,206.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="354.25" y="215.8535">Estante</text><line style="stroke:#A80036;stroke-width:1.0;" x1="249" x2="475" y1="227" y2="227"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="256" y="237.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="268" y="243.6738">letra: String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="256" y="252.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="268" y="259.3145">libros: List&lt;Libro&gt;</text><line style="stroke:#A80036;stroke-width:1.0;" x1="249" x2="475" y1="266.2813" y2="266.2813"/><ellipse cx="259" cy="279.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="268" y="282.9551">Estante()</text><ellipse cx="259" cy="295.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="268" y="298.5957">getLetra(): String</text><ellipse cx="259" cy="310.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="268" y="314.2363">getNumeroLibros(): int</text><ellipse cx="259" cy="326.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="268" y="329.877">agregarLibro(libro: Libro): void</text><ellipse cx="259" cy="342.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="268" y="345.5176">obtenerLibro(isbn: String): Libro</text></g><!--MD5=[f7fb469b8ced7b1b9edf5f6012180fc9]
+link Estante to Libro--><g id="link_Estante_Libro"><path codeLine="29" d="M364.44,352.18 C364.99,369.76 365.58,388.58 366.15,406.65 " fill="none" id="Estante-to-Libro" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="366.31,411.72,370.0253,402.5988,366.1529,406.7225,362.0293,402.8501,366.31,411.72" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="357.3357" y="372.3846">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="360.8478" y="401.154">*</text></g><!--MD5=[0e474d62d1594c26920f84c18ab1ac48]
+reverse link Biblioteca to BibliotecaImpl--><g id="link_Biblioteca_BibliotecaImpl"><path d="M136.2,155.28 C132.33,181.64 128.02,211 124.69,233.75 " fill="none" id="Biblioteca-backto-BibliotecaImpl" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="129.29,154.18,139.12,135.41,143.14,156.21,129.29,154.18" style="stroke:#A80036;stroke-width:1.0;"/></g><!--MD5=[b28962bb9f33bd24968ebfcbcb69ffa8]
+link BibliotecaImpl to Estante--><g id="link_BibliotecaImpl_Estante"><path codeLine="43" d="M206.33,273.5 C218.48,273.5 230.63,273.5 242.78,273.5 " fill="none" id="BibliotecaImpl-to-Estante" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="247.98,273.5,238.98,269.5,242.98,273.5,238.98,277.5,247.98,273.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="214.1357" y="270.6774">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="14" x="225.849" y="270.7996">26</text></g><!--MD5=[b62c60cc2179ab283527a1eb82cedfdb]
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+package cl.ucn.disc.pa.biblioteca {
+
+    package model {
+
+        class Libro {
+            - isbn: String
+            - titulo String
+            - prestado: boolean
+            + Libro(isbn: String, titulo: String)
+            + getIsbn(): String
+            + getTitulo(): String
+            + isPrestado(): boolean
+            + setPrestado(prestado: boolean): void
+        }
+
+        class Estante {
+            - letra: String
+            - libros: List<Libro>
+            + Estante()
+            + getLetra(): String
+            + getNumeroLibros(): int
+            + agregarLibro(libro: Libro): void
+            + obtenerLibro(isbn: String): Libro
+        }
+        Estante "1" - -> "*" Libro
+
+    }
+
+    interface Biblioteca {
+        + agregarLibro(libro: Libro): void
+        + prestarLibro(isbn: String): void
+        + devolverLibro(isbn: String): void
+    }
+
+    class BibliotecaImpl implements Biblioteca {
+        - estantes: List<Estante>
+        + BibliotecaImpl()
+    }
+    BibliotecaImpl "1" -> "26" Estante
+
+}
+
+@enduml
+
+@startuml
+skin rose
+
+package cl.ucn.disc.pa.biblioteca {
+
+    package model {
+
+        class Libro {
+            - isbn: String
+            - titulo String
+            - prestado: boolean
+            + Libro(isbn: String, titulo: String)
+            + getIsbn(): String
+            + getTitulo(): String
+            + isPrestado(): boolean
+            + setPrestado(prestado: boolean): void
+        }
+
+        class Estante {
+            - letra: String
+            - libros: List<Libro>
+            + Estante()
+            + getLetra(): String
+            + getNumeroLibros(): int
+            + agregarLibro(libro: Libro): void
+            + obtenerLibro(isbn: String): Libro
+        }
+        Estante "1" - -> "*" Libro
+
+    }
+
+    interface Biblioteca {
+        + agregarLibro(libro: Libro): void
+        + prestarLibro(isbn: String): void
+        + devolverLibro(isbn: String): void
+    }
+
+    class BibliotecaImpl implements Biblioteca {
+        - estantes: List<Estante>
+        + BibliotecaImpl()
+    }
+    BibliotecaImpl "1" -> "26" Estante
+
+}
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 15:12:26 CLST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

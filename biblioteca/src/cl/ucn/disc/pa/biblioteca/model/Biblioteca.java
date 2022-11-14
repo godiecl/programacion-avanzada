@@ -20,4 +20,19 @@ public interface Biblioteca {
      * @param libro a agregar.
      */
     void agregarLibro(Libro libro);
+
+    /**
+     * Cambia el estado del libro identificado por el isbn bajo prestamo.
+     *
+     * @param isbn del libro a prestar.
+     */
+    void prestarLibro(String isbn);
+
+    /**
+     * Cambia es estado del Libro identificado por el isbn disponible para prestamo.
+     *
+     * @param isbn del libro a prestar.
+     */
+    void devolverLibro(String isbn);
+
 }
