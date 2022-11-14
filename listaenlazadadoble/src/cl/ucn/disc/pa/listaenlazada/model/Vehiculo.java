@@ -107,4 +107,12 @@ public final class Vehiculo implements Elemento {
         // no se puede comparar
         throw new IllegalArgumentException("Elemento no es un Vehiculo");
     }
+
+    /**
+     * Returns a string representation of the object.
+     */
+    @Override
+    public String toString() {
+        return this.placa;
+    }
 }
