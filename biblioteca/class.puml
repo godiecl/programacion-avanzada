@@ -1,0 +1,48 @@
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+package cl.ucn.disc.pa.biblioteca {
+
+    package model {
+
+        class Libro {
+            - isbn: String
+            - titulo String
+            - prestado: boolean
+            + Libro(isbn: String, titulo: String)
+            + getIsbn(): String
+            + getTitulo(): String
+            + isPrestado(): boolean
+            + setPrestado(prestado: boolean): void
+        }
+
+        class Estante {
+            - letra: String
+            - libros: List<Libro>
+            + Estante()
+            + getLetra(): String
+            + getNumeroLibros(): int
+            + agregarLibro(libro: Libro): void
+            + obtenerLibro(isbn: String): Libro
+        }
+        Estante "1" --> "*" Libro
+
+    }
+
+    interface Biblioteca {
+        + agregarLibro(libro: Libro): void
+        + prestarLibro(isbn: String): void
+        + devolverLibro(isbn: String): void
+    }
+
+    class BibliotecaImpl implements Biblioteca {
+        - estantes: List<Estante>
+        + BibliotecaImpl()
+    }
+    BibliotecaImpl "1" -> "26" Estante
+
+}
+
+@enduml
