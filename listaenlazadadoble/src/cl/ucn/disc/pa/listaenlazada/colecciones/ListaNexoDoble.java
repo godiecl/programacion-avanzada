@@ -96,6 +96,7 @@ public final class ListaNexoDoble implements Lista {
         if (this.cabeza.getElemento().esIgual(e)) {
             this.cabeza = this.cabeza.getSiguiente();
             // en caso de que la lista tenga un solo elemento.
+            // FIXME: Error en la codificacion
             if (this.cabeza != null) {
                 this.cabeza.setAnterior(null);
             }
