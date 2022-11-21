@@ -1,0 +1,41 @@
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+
+package cl.ucn.disc.pa.diccionario {
+
+    interface IDiccionario {
+        + insertarPalabra(palabra: String, significado: String): boolean
+        + eliminarPalabra(palabra: String): boolean
+        + buscarSignificado(palabra: String): String
+        + listadoPalabras(): String[]
+        + cantidadDePalabras(): int
+    }
+
+    class DiccionarioImpl implements IDiccionario {
+        + DiccionarioImpl()
+    }
+    DiccionarioImpl --> "*" Entrada: ~ indice: List<Entrada>
+
+    class Concepto <<inner>> {
+        ~ palabra: String
+        ~ significado: String
+        ~ Concepto(palabra: String, significado: String)
+    }
+    Concepto +-- DiccionarioImpl
+
+    class Entrada <<inner>> {
+        ~ letra: char
+        ~ Entrada(letra: char)
+        ~ tamanio(): int
+        ~ pertenece(palabra: String): boolean
+        ~ insertar(concepto: Concepto): void
+    }
+    Entrada +-- DiccionarioImpl
+    Entrada --> "*" Concepto: ~ conceptos: List<Concepto>
+
+}
+
+@enduml

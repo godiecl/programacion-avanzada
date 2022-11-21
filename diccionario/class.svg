@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="843.6px" preserveAspectRatio="none" style="width:565px;height:843px;background:#FFFFFF;" version="1.1" viewBox="0 0 565 843" width="565.2px" zoomAndPan="magnify"><defs><filter height="300%" id="fruutpqamnis2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.4"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.8" dy="4.8" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3223bca87fd9106096e73187672ae3d4]
+cluster cl.ucn.disc.pa.diccionario--><g id="cluster_cl.ucn.disc.pa.diccionario"><polygon fill="none" filter="url(#fruutpqamnis2)" points="19.2,7.2,240,7.2,248.4,33.1687,544.8,33.1687,544.8,832.8,19.2,832.8,19.2,7.2" style="stroke:#000000;stroke-width:1.7999999999999998;"/><line style="stroke:#000000;stroke-width:1.7999999999999998;" x1="19.2" x2="248.4" y1="33.1687" y2="33.1687"/><text fill="#000000" font-family="sans-serif" font-size="16.8" font-weight="bold" lengthAdjust="spacing" textLength="213.6" x="24" y="24.8086">cl.ucn.disc.pa.diccionario</text></g><!--MD5=[904414836bbab92362153fd9673fe0ee]
+class IDiccionario--><g id="elem_IDiccionario"><rect codeLine="8" fill="#FEFECE" filter="url(#fruutpqamnis2)" height="151.4438" id="IDiccionario" style="stroke:#A80036;stroke-width:1.2;" width="486" x="39" y="48"/><ellipse cx="232.5" cy="67.2" fill="#B4A7E5" rx="13.2" ry="13.2" style="stroke:#A80036;stroke-width:1.2;"/><path d="M233.6437,63.1687 L233.6437,71.1563 L235.7062,71.1563 Q236.4375,71.1563 236.7563,71.4375 Q237.075,71.7188 237.075,72.1875 Q237.075,72.6375 236.7563,72.9188 Q236.4375,73.2 235.7062,73.2 L229.5375,73.2 Q228.8063,73.2 228.4875,72.9188 Q228.1688,72.6375 228.1688,72.1688 Q228.1688,71.7188 228.4875,71.4375 Q228.8063,71.1563 229.5375,71.1563 L231.6,71.1563 L231.6,63.1687 L229.5375,63.1687 Q228.8063,63.1687 228.4875,62.8875 Q228.1688,62.6062 228.1688,62.1375 Q228.1688,61.6875 228.4875,61.4063 Q228.8063,61.125 229.5375,61.125 L235.7062,61.125 Q236.4375,61.125 236.7563,61.4063 Q237.075,61.6875 237.075,62.1375 Q237.075,62.6062 236.7563,62.8875 Q236.4375,63.1687 235.7062,63.1687 L233.6437,63.1687 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="16.8" font-style="italic" lengthAdjust="spacing" textLength="88.8" x="257.1" y="73.0242">IDiccionario</text><line style="stroke:#A80036;stroke-width:1.2;" x1="40.2" x2="523.8" y1="86.4" y2="86.4"/><line style="stroke:#A80036;stroke-width:1.2;" x1="40.2" x2="523.8" y1="96" y2="96"/><ellipse cx="52.2" cy="111.9844" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="454.8" x="63" y="116.0086">insertarPalabra(palabra: String, significado: String): boolean</text><ellipse cx="52.2" cy="130.7531" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="312" x="63" y="134.7773">eliminarPalabra(palabra: String): boolean</text><ellipse cx="52.2" cy="149.5219" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="312" x="63" y="153.5461">buscarSignificado(palabra: String): String</text><ellipse cx="52.2" cy="168.2906" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="192" x="63" y="172.3148">listadoPalabras(): String[]</text><ellipse cx="52.2" cy="187.0594" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="193.2" x="63" y="191.0836">cantidadDePalabras(): int</text></g><!--MD5=[8b58f2d802b574a604a4cbd63b31d591]
+class DiccionarioImpl--><g id="elem_DiccionarioImpl"><rect codeLine="16" fill="#FEFECE" filter="url(#fruutpqamnis2)" height="76.3687" id="DiccionarioImpl" style="stroke:#A80036;stroke-width:1.2;" width="157.2" x="252.6" y="272.4"/><ellipse cx="272.76" cy="291.6" fill="#ADD1B2" rx="13.2" ry="13.2" style="stroke:#A80036;stroke-width:1.2;"/><path d="M276.0788,286.65 Q276.2663,286.3875 276.4913,286.2562 Q276.7163,286.125 276.9788,286.125 Q277.4288,286.125 277.71,286.4437 Q277.9913,286.7438 277.9913,287.475 L277.9913,289.2188 Q277.9913,289.95 277.71,290.2688 Q277.4288,290.5875 276.9788,290.5875 Q276.5663,290.5875 276.3225,290.3438 Q276.0788,290.1188 275.9475,289.5 Q275.8913,289.0687 275.6663,288.8438 Q275.2725,288.3938 274.5413,288.1312 Q273.81,287.8688 273.06,287.8688 Q272.1413,287.8688 271.3725,288.2625 Q270.6225,288.6563 270.0225,289.5563 Q269.4413,290.4563 269.4413,291.6937 L269.4413,293.0062 Q269.4413,294.4875 270.51,295.4813 Q271.5788,296.4563 273.4913,296.4563 Q274.6163,296.4563 275.4038,296.1563 Q275.8725,295.9688 276.3788,295.4437 Q276.6975,295.125 276.8663,295.0313 Q277.0538,294.9375 277.2975,294.9375 Q277.6913,294.9375 277.9913,295.2562 Q278.31,295.5563 278.31,295.9688 Q278.31,296.3812 277.8975,296.8688 Q277.2975,297.5625 276.3413,297.9563 Q275.0475,298.5 273.4913,298.5 Q271.6725,298.5 270.2288,297.75 Q269.0475,297.15 268.2225,295.875 Q267.3975,294.5813 267.3975,293.0438 L267.3975,291.6563 Q267.3975,290.0625 268.1288,288.6937 Q268.8788,287.3063 270.1913,286.575 Q271.5038,285.825 272.985,285.825 Q273.8663,285.825 274.635,286.0313 Q275.4225,286.2188 276.0788,286.65 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="114" x="290.04" y="297.4242">DiccionarioImpl</text><line style="stroke:#A80036;stroke-width:1.2;" x1="253.8" x2="408.6" y1="310.8" y2="310.8"/><line style="stroke:#A80036;stroke-width:1.2;" x1="253.8" x2="408.6" y1="320.4" y2="320.4"/><ellipse cx="265.8" cy="336.3844" fill="#84BE84" rx="3.6" ry="3.6" style="stroke:#038048;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="126" x="276.6" y="340.4086">DiccionarioImpl()</text></g><!--MD5=[6694c18989b8e2458a5d3d469144568d]
+class Entrada--><g id="elem_Entrada"><rect codeLine="28" fill="#FEFECE" filter="url(#fruutpqamnis2)" height="159.9" id="Entrada" style="stroke:#A80036;stroke-width:1.2;" width="302.4" x="38.4" y="440.4"/><ellipse cx="154.5" cy="463.8281" fill="#ADD1B2" rx="13.2" ry="13.2" style="stroke:#A80036;stroke-width:1.2;"/><path d="M157.8188,458.8781 Q158.0063,458.6156 158.2313,458.4844 Q158.4562,458.3531 158.7188,458.3531 Q159.1688,458.3531 159.45,458.6719 Q159.7313,458.9719 159.7313,459.7031 L159.7313,461.4469 Q159.7313,462.1781 159.45,462.4969 Q159.1688,462.8156 158.7188,462.8156 Q158.3063,462.8156 158.0625,462.5719 Q157.8188,462.3469 157.6875,461.7281 Q157.6313,461.2969 157.4063,461.0719 Q157.0125,460.6219 156.2813,460.3594 Q155.55,460.0969 154.8,460.0969 Q153.8813,460.0969 153.1125,460.4906 Q152.3625,460.8844 151.7625,461.7844 Q151.1813,462.6844 151.1813,463.9219 L151.1813,465.2344 Q151.1813,466.7156 152.25,467.7094 Q153.3188,468.6844 155.2313,468.6844 Q156.3563,468.6844 157.1437,468.3844 Q157.6125,468.1969 158.1188,467.6719 Q158.4375,467.3531 158.6063,467.2594 Q158.7938,467.1656 159.0375,467.1656 Q159.4313,467.1656 159.7313,467.4844 Q160.05,467.7844 160.05,468.1969 Q160.05,468.6094 159.6375,469.0969 Q159.0375,469.7906 158.0812,470.1844 Q156.7875,470.7281 155.2313,470.7281 Q153.4125,470.7281 151.9688,469.9781 Q150.7875,469.3781 149.9625,468.1031 Q149.1375,466.8094 149.1375,465.2719 L149.1375,463.8844 Q149.1375,462.2906 149.8688,460.9219 Q150.6188,459.5344 151.9313,458.8031 Q153.2438,458.0531 154.725,458.0531 Q155.6063,458.0531 156.375,458.2594 Q157.1625,458.4469 157.8188,458.8781 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="183.9" y="459.4359">«inner»</text><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="60" x="179.1" y="477.6961">Entrada</text><line style="stroke:#A80036;stroke-width:1.2;" x1="39.6" x2="339.6" y1="487.2562" y2="487.2562"/><polygon fill="none" points="51.6,498.4406,46.8,505.6406,56.4,505.6406" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="76.8" x="62.4" y="507.2648">letra: char</text><line style="stroke:#A80036;stroke-width:1.2;" x1="39.6" x2="339.6" y1="515.625" y2="515.625"/><polygon fill="#4177AF" points="51.6,526.8094,46.8,534.0094,56.4,534.0094" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="148.8" x="62.4" y="535.6336">Entrada(letra: char)</text><polygon fill="#4177AF" points="51.6,545.5781,46.8,552.7781,56.4,552.7781" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="99.6" x="62.4" y="554.4023">tamanio(): int</text><polygon fill="#4177AF" points="51.6,564.3469,46.8,571.5469,56.4,571.5469" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="271.2" x="62.4" y="573.1711">pertenece(palabra: String): boolean</text><polygon fill="#4177AF" points="51.6,583.1156,46.8,590.3156,56.4,590.3156" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="262.8" x="62.4" y="591.9398">insertar(concepto: Concepto): void</text></g><!--MD5=[8dd6ee550e1bd8a072b61cb7fe681ebe]
+class Concepto--><g id="elem_Concepto"><rect codeLine="21" fill="#FEFECE" filter="url(#fruutpqamnis2)" height="122.3625" id="Concepto" style="stroke:#A80036;stroke-width:1.2;" width="372" x="96" y="691.2"/><ellipse cx="240.3" cy="714.6281" fill="#ADD1B2" rx="13.2" ry="13.2" style="stroke:#A80036;stroke-width:1.2;"/><path d="M243.6187,709.6781 Q243.8062,709.4156 244.0313,709.2844 Q244.2563,709.1531 244.5187,709.1531 Q244.9688,709.1531 245.25,709.4719 Q245.5313,709.7719 245.5313,710.5031 L245.5313,712.2469 Q245.5313,712.9781 245.25,713.2969 Q244.9688,713.6156 244.5187,713.6156 Q244.1063,713.6156 243.8625,713.3719 Q243.6187,713.1469 243.4875,712.5281 Q243.4312,712.0969 243.2062,711.8719 Q242.8125,711.4219 242.0812,711.1594 Q241.35,710.8969 240.6,710.8969 Q239.6812,710.8969 238.9125,711.2906 Q238.1625,711.6844 237.5625,712.5844 Q236.9813,713.4844 236.9813,714.7219 L236.9813,716.0344 Q236.9813,717.5156 238.05,718.5094 Q239.1187,719.4844 241.0313,719.4844 Q242.1563,719.4844 242.9438,719.1844 Q243.4125,718.9969 243.9188,718.4719 Q244.2375,718.1531 244.4063,718.0594 Q244.5938,717.9656 244.8375,717.9656 Q245.2313,717.9656 245.5313,718.2844 Q245.85,718.5844 245.85,718.9969 Q245.85,719.4094 245.4375,719.8969 Q244.8375,720.5906 243.8813,720.9844 Q242.5875,721.5281 241.0313,721.5281 Q239.2125,721.5281 237.7687,720.7781 Q236.5875,720.1781 235.7625,718.9031 Q234.9375,717.6094 234.9375,716.0719 L234.9375,714.6844 Q234.9375,713.0906 235.6688,711.7219 Q236.4188,710.3344 237.7313,709.6031 Q239.0438,708.8531 240.525,708.8531 Q241.4063,708.8531 242.175,709.0594 Q242.9625,709.2469 243.6187,709.6781 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14.4" font-style="italic" lengthAdjust="spacing" textLength="50.4" x="276.3" y="710.2359">«inner»</text><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="73.2" x="264.9" y="728.4961">Concepto</text><line style="stroke:#A80036;stroke-width:1.2;" x1="97.2" x2="466.8" y1="738.0563" y2="738.0563"/><polygon fill="none" points="109.2,749.2406,104.4,756.4406,114,756.4406" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="111.6" x="120" y="758.0648">palabra: String</text><polygon fill="none" points="109.2,768.0094,104.4,775.2094,114,775.2094" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="134.4" x="120" y="776.8336">significado: String</text><line style="stroke:#A80036;stroke-width:1.2;" x1="97.2" x2="466.8" y1="785.1938" y2="785.1938"/><polygon fill="#4177AF" points="109.2,796.3781,104.4,803.5781,114,803.5781" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="16.8" lengthAdjust="spacing" textLength="340.8" x="120" y="805.2023">Concepto(palabra: String, significado: String)</text></g><!--MD5=[cdaae292dd8e3c3779d6b55c34a01935]
+reverse link IDiccionario to DiccionarioImpl--><g id="link_IDiccionario_DiccionarioImpl"><path d="M308.196,223.2 C312.852,240.684 317.424,257.868 321.252,272.256 " fill="none" id="IDiccionario-backto-DiccionarioImpl" style="stroke:#A80036;stroke-width:1.2;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="299.928,224.784,301.872,199.428,316.164,220.464,299.928,224.784" style="stroke:#A80036;stroke-width:1.2;"/></g><!--MD5=[9f3ef1840666df67d163f00aca6bce89]
+link DiccionarioImpl to Entrada--><g id="link_DiccionarioImpl_Entrada"><path codeLine="19" d="M252.492,327 C219.828,337.524 185.076,355.308 165.6,385.2 C156.192,399.648 154.104,416.736 155.928,433.788 " fill="none" id="DiccionarioImpl-to-Entrada" style="stroke:#A80036;stroke-width:1.2;"/><polygon fill="#A80036" points="156.768,440.064,160.075,428.7175,155.9627,434.1183,150.5618,430.006,156.768,440.064" style="stroke:#A80036;stroke-width:1.2;"/><polygon fill="none" points="172.8,390.9141,168,398.1141,177.6,398.1141" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="148.8" x="181.2" y="400.5223">indice: List&lt;Entrada&gt;</text><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="6" x="146.8489" y="427.7206">*</text></g><!--MD5=[cb54675052b43706fb17bf722a9293f3]
+reverse link Entrada to DiccionarioImpl--><g id="link_Entrada_DiccionarioImpl"><path codeLine="35" d="M322.872,425.988 C327.876,419.148 332.328,411.948 336,404.4 C344.16,387.648 343.944,367.104 341.256,349.644 " fill="none" id="Entrada-backto-DiccionarioImpl" style="stroke:#A80036;stroke-width:1.2;"/><ellipse cx="317.1445" cy="432.969" fill="#FFFFFF" rx="9.6" ry="9.6" style="stroke:#A80036;stroke-width:1.2;"/><line style="stroke:#A80036;stroke-width:1.2;" x1="323.237" x2="311.052" y1="425.5501" y2="440.388"/><line style="stroke:#A80036;stroke-width:1.2;" x1="324.5635" x2="309.7255" y1="439.0615" y2="426.8765"/></g><!--MD5=[1edd9ca979b4ee3e3fb486ddd2bb880e]
+reverse link Concepto to DiccionarioImpl--><g id="link_Concepto_DiccionarioImpl"><path codeLine="26" d="M376.332,676.656 C381.204,669.864 385.452,662.7 388.8,655.2 C435.168,551.184 382.02,414.264 350.772,349.308 " fill="none" id="Concepto-backto-DiccionarioImpl" style="stroke:#A80036;stroke-width:1.2;"/><ellipse cx="370.8407" cy="683.4365" fill="#FFFFFF" rx="9.6" ry="9.6" style="stroke:#A80036;stroke-width:1.2;"/><line style="stroke:#A80036;stroke-width:1.2;" x1="376.8933" x2="364.788" y1="675.9849" y2="690.888"/><line style="stroke:#A80036;stroke-width:1.2;" x1="378.2922" x2="363.3891" y1="689.4891" y2="677.3838"/></g><!--MD5=[e429eea249958016eddb3609967d4db4]
+link Entrada to Concepto--><g id="link_Entrada_Concepto"><path codeLine="36" d="M167.724,600.312 C166.164,618.9 167.64,638.232 175.2,655.2 C180.168,666.36 187.152,676.752 195.192,686.28 " fill="none" id="Entrada-to-Concepto" style="stroke:#A80036;stroke-width:1.2;"/><polygon fill="#A80036" points="199.212,690.888,195.7125,679.5993,195.261,686.3725,188.4878,685.921,199.212,690.888" style="stroke:#A80036;stroke-width:1.2;"/><polygon fill="none" points="182.4,641.7141,177.6,648.9141,187.2,648.9141" style="stroke:#1963A0;stroke-width:1.2;"/><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="192" x="190.8" y="651.3223">conceptos: List&lt;Concepto&gt;</text><text fill="#000000" font-family="sans-serif" font-size="15.6" lengthAdjust="spacing" textLength="6" x="181.1481" y="678.4257">*</text></g><!--MD5=[1c7134e36c120216c373267c90ceca6d]
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+
+package cl.ucn.disc.pa.diccionario {
+
+    interface IDiccionario {
+        + insertarPalabra(palabra: String, significado: String): boolean
+        + eliminarPalabra(palabra: String): boolean
+        + buscarSignificado(palabra: String): String
+        + listadoPalabras(): String[]
+        + cantidadDePalabras(): int
+    }
+
+    class DiccionarioImpl implements IDiccionario {
+        + DiccionarioImpl()
+    }
+    DiccionarioImpl - -> "*" Entrada: ~ indice: List<Entrada>
+
+    class Concepto <<inner>> {
+        ~ palabra: String
+        ~ significado: String
+        ~ Concepto(palabra: String, significado: String)
+    }
+    Concepto +- - DiccionarioImpl
+
+    class Entrada <<inner>> {
+        ~ letra: char
+        ~ Entrada(letra: char)
+        ~ tamanio(): int
+        ~ pertenece(palabra: String): boolean
+        ~ insertar(concepto: Concepto): void
+    }
+    Entrada +- - DiccionarioImpl
+    Entrada - -> "*" Concepto: ~ conceptos: List<Concepto>
+
+}
+
+@enduml
+
+@startuml
+skin rose
+
+
+package cl.ucn.disc.pa.diccionario {
+
+    interface IDiccionario {
+        + insertarPalabra(palabra: String, significado: String): boolean
+        + eliminarPalabra(palabra: String): boolean
+        + buscarSignificado(palabra: String): String
+        + listadoPalabras(): String[]
+        + cantidadDePalabras(): int
+    }
+
+    class DiccionarioImpl implements IDiccionario {
+        + DiccionarioImpl()
+    }
+    DiccionarioImpl - -> "*" Entrada: ~ indice: List<Entrada>
+
+    class Concepto <<inner>> {
+        ~ palabra: String
+        ~ significado: String
+        ~ Concepto(palabra: String, significado: String)
+    }
+    Concepto +- - DiccionarioImpl
+
+    class Entrada <<inner>> {
+        ~ letra: char
+        ~ Entrada(letra: char)
+        ~ tamanio(): int
+        ~ pertenece(palabra: String): boolean
+        ~ insertar(concepto: Concepto): void
+    }
+    Entrada +- - DiccionarioImpl
+    Entrada - -> "*" Concepto: ~ conceptos: List<Concepto>
+
+}
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 15:12:26 CLST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
