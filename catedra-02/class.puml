@@ -1,0 +1,97 @@
+@startuml
+' left to right direction
+' hide empty members
+skin rose
+
+class Estudiante {
+    - rut: String
+    - nombre: String
+    + Estudiante(rut: String, nombre: String)
+    + getRut(): String
+    + getNombre(): String
+}
+
+class NodoEstudiante {
+    - estudiante: Estudiante
+    - siguiente: NodoEstudiante
+    - anterior: NodoEstudiante
+    + NodoEstudiante(estudiante: Estudiante)
+    + getEstudiante(): Estudiante
+    + getSiguiente(): NodoEstudiante
+    + setSiguiente(siguiente: NodoEstudiante): void
+    + getAnterior(): NodoEstudiante
+    + setAnterior(anterior: NodoEstudiante): void
+}
+NodoEstudiante *-u-> "1" Estudiante : <<posee>>
+
+class ListaEstudianteNexoDoble {
+    - primero: NodoEstudiante
+    - ultimo: NodoEstudiante
+    + ListaEstudianteNexoDoble()
+    + agregar(estudiante: Estudiante): boolean
+    + buscar(rut: String): Estudiante
+    + eliminar(rut: String): void
+    + cantidadDeEstudiantes(): int
+}
+ListaEstudianteNexoDoble "1" *-d-> "0..*" NodoEstudiante : <<contiene>>
+
+class Sede {
+    - rut: String
+    - nombre: String
+    - distancia: double
+    - listaEstudiantes: ListaEstudianteNexoDoble
+    + Sede(rut: String, nombre: String, distancia: double)
+    + getRut(): String
+    + getNombre(): String
+    + getDistancia(): double
+    + agregarEstudiante(estudiante: Estudiante): boolean
+    + buscarEstudiante(rutEstudiante: String): Estudiante
+    + eliminarEstudiante(rutEstudiante: String) boolean
+    + cantidadDeEstudiantes(): int
+    + getEstudiante(posicion: int): Estudiante
+}
+Sede *-u-> "1" ListaEstudianteNexoDoble : <<posee>>
+
+class NodoSede {
+    - sede: Sede
+    - siguiente: NodoSede
+    - anterior: NodoSede
+    + NodoSede(sede: Sede)
+    + getSede(): Sede
+    + getSiguiente(): NodoSede
+    + setSiguiente(siguiente: NodoSede): void
+    + getAnterior(): NodoSede
+    + setAnterior(anterior: NodoSede): void
+}
+NodoSede *-d-> "1" Sede : <<posee>>
+
+class ListaSedeNexoDoble {
+    - primero: NodoSede
+    - ultimo: NodoSede
+    + ListaSedeNexoDoble()
+    + agregar(sede: Sede): boolean
+    + buscar(rut: String): Sede
+    + eliminar(rut: String): void
+    + cantidadDeSedes(): int
+    + getSede(posicion: int): Sede
+}
+ListaSedeNexoDoble "1" *-> "0..*" NodoSede : <<contiene>>
+
+interface Universidad {
+    + crearSede(sede: Sede): boolean
+    + agregarEstudianteSede(estudiante: Estudiante, rutSede: String): boolean
+    + transferirEstudianteDeSede(rutEstudiante: String, rutSedeOrigen: String, rutSedeDestino: String): boolean
+    + cerrarSede(rutSede: String): boolean
+    + eliminarEstudiante(rutEstudiante: String): boolean
+    + cantidadDeEstudiantes(): int
+}
+
+class UniversidadImpl {
+    - sedes: ListaSedeNexoDoble
+    + UniversidadImpl()
+}
+UniversidadImpl ..|> Universidad
+UniversidadImpl -> "1" ListaSedeNexoDoble : <<posee>>
+
+
+@enduml
