@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ayudantia-08-dodos/ayudantia-08-dodos.iml" filepath="$PROJECT_DIR$/ayudantia-08-dodos/ayudantia-08-dodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/biblioteca/biblioteca.iml" filepath="$PROJECT_DIR$/biblioteca/biblioteca.iml" />
-      <module fileurl="file://$PROJECT_DIR$/catedra-02/catedra-02.iml" filepath="$PROJECT_DIR$/catedra-02/catedra-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/catedra/catedra.iml" filepath="$PROJECT_DIR$/catedra/catedra.iml" />
       <module fileurl="file://$PROJECT_DIR$/code.iml" filepath="$PROJECT_DIR$/code.iml" />
       <module fileurl="file://$PROJECT_DIR$/diccionario/diccionario.iml" filepath="$PROJECT_DIR$/diccionario/diccionario.iml" />
       <module fileurl="file://$PROJECT_DIR$/iterator/iterator.iml" filepath="$PROJECT_DIR$/iterator/iterator.iml" />
