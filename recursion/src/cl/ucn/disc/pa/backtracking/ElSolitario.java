@@ -117,10 +117,6 @@ public final class ElSolitario {
             return true;
         }
 
-        // arreglo de movimientos
-        final int[] movimientoFila = {2, 0, -2, 0};
-        final int[] movimientoColumna = {0, 2, 0, -2};
-
         // generacion de candidatos: todas las posibles del tablero
         for (int fila = 1; fila <= 7; fila++) {
             for (int columna = 1; columna <= 7; columna++) {
@@ -237,6 +233,7 @@ public final class ElSolitario {
      * @param movimiento    a realizar.
      * @return true si es posible.
      */
+    @SuppressWarnings("checkstyle:MissingSwitchDefault")
     private boolean isAceptable(final int filaOrigen, final int columnaOrigen, final Movimiento movimiento) {
 
         // posicion inicial fuera del tablero
