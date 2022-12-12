@@ -121,6 +121,11 @@ public final class ElSolitario {
         for (int fila = 1; fila <= 7; fila++) {
             for (int columna = 1; columna <= 7; columna++) {
 
+                // micro-optimizacion: solo probar donde hay fichas en la posicion de origen
+                if (this.tablero[fila][columna] != FICHA) {
+                    continue;
+                }
+
                 // ciclo para generar las posiciones destino
                 for (Movimiento movimiento : Movimiento.values()) {
 
