@@ -5,9 +5,9 @@
  * Antofagasta, Chile.
  */
 
-package cl.ucn.disc.pa.catedra.tres.services;
+package cl.ucn.disc.pa.catedra.examen.services;
 
-import cl.ucn.disc.pa.catedra.tres.model.Palabra;
+import cl.ucn.disc.pa.catedra.examen.model.Palabra;
 
 /**
  * The implementation of Concordancia.

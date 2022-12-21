@@ -5,10 +5,10 @@
  * Antofagasta, Chile.
  */
 
-package cl.ucn.disc.pa.catedra.tres;
+package cl.ucn.disc.pa.catedra.examen;
 
-import cl.ucn.disc.pa.catedra.tres.services.Concordancia;
-import cl.ucn.disc.pa.catedra.tres.services.ConcordanciaImpl;
+import cl.ucn.disc.pa.catedra.examen.services.Concordancia;
+import cl.ucn.disc.pa.catedra.examen.services.ConcordanciaImpl;
 
 import java.io.IOException;
 import java.nio.file.Files;

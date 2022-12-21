@@ -5,7 +5,7 @@
  * Antofagasta, Chile.
  */
 
-package cl.ucn.disc.pa.catedra.tres.services;
+package cl.ucn.disc.pa.catedra.examen.services;
 
 /**
  * The Concordancia class.

@@ -5,7 +5,7 @@
  * Antofagasta, Chile.
  */
 
-package cl.ucn.disc.pa.catedra.tres.model;
+package cl.ucn.disc.pa.catedra.examen.model;
 
 import java.util.ArrayList;
 import java.util.List;
